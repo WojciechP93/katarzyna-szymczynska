@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.hello-content {
+    margin-top: 8% !important;
+}
+
+.hello-text {
+    font-family: "Fredericka the Great" !important;
+    font-size: 144px;
+    font-weight: 400 !important;
+    color: #980B2D;
+    margin-bottom: 0;
+}
+
+.hello-column {
+    margin-left: 13%;
+    margin-top: 9% !important;
+}
+
+.image-column {
+    margin-right: 2%;
+}
+
+.about-text {
+    font-family: "Montserrat" !important;
+    font-size: 32px;
+    color: #173292;
+    margin-bottom: 10%;
+}
+
+.portfolio-button {
+    font-family: "Montserrat" !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    background-color: #980B2D !important;
+    padding: 19px 0 !important;
+    border-width: 0 !important;
+    border-radius: 40px !important;
+    width: 50% !important;
+    height: 3.5em !important;
+}
