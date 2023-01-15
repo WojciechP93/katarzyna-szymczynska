@@ -6,6 +6,7 @@
     width: 100% !important;
     box-shadow: 0px 2px 10px #9a9a9cf8;
     padding-bottom: 1 !important;
+    z-index: 1000;
 }
 
 .navigation-bar-brand {

@@ -15,7 +15,7 @@
 
 .hello-column {
     margin-left: 13%;
-    margin-top: 9% !important;
+    align-self: center;
 }
 
 .image-column {
@@ -37,6 +37,6 @@
     padding: 19px 0 !important;
     border-width: 0 !important;
     border-radius: 40px !important;
-    width: 50% !important;
+    width: 15em !important;
     height: 3.5em !important;
 }

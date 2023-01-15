@@ -5,7 +5,7 @@ import SectionHeaderComponent from '../shared/section_header/SectionHeaderCompon
 
 function ContactComponent() {
     return (
-        <Container fluid className="content">
+        <Container>
             <Row>
                 <Col>
                     <SectionHeaderComponent title="contact" />
@@ -13,7 +13,7 @@ function ContactComponent() {
             </Row>
             <Row>
                 <Col>
-                    <p >
+                    <div >
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dol
                         ore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -74,7 +74,7 @@ function ContactComponent() {
                         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                         nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
                         anim id est laborum."
-                    </p>
+                    </div>
                 </Col>
             </Row>
         </Container>

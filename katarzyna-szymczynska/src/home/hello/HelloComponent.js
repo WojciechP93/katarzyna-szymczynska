@@ -5,26 +5,24 @@ import kasia from "./home-kasia-image.svg"
 
 function HelloComponent() {
     return (
-        <Container fluid className="hello-content">
+        <Container className="hello-content">
             <Row>
                 <Col className="hello-column">
-                    <Container fluid>
-                        <Row>
-                            <p className="hello-text">
-                                Hello!
-                            </p>
-                        </Row>
-                        <Row>
-                            <p className="about-text">
-                                I am <b>Katarzyna Szymczyńska</b>,
-                                artistic soul, UI/UX and graphic
-                                designer by profession.
-                            </p>
-                        </Row>
-                        <Row>
-                            <Button className="portfolio-button" href="#Section 3">PORFTOLIO</Button>
-                        </Row>
-                    </Container>
+                    <Row>
+                        <p className="hello-text">
+                            Hello!
+                        </p>
+                    </Row>
+                    <Row>
+                        <p className="about-text">
+                            I am <b>Katarzyna Szymczyńska</b>,
+                            artistic soul, UI/UX and graphic
+                            designer by profession.
+                        </p>
+                    </Row>
+                    <Row>
+                        <Button className="portfolio-button" href="#Section 3">PORFTOLIO</Button>
+                    </Row>
                 </Col>
                 <Col className="image-column" xs={7}>
                     <Image src={kasia} fluid />

@@ -6,7 +6,7 @@ import vector from "./about-me-vector.svg";
 
 function AboutMeComponent() {
     return (
-        <Container fluid className="content">
+        <Container className="content">
             <Row>
                 <Col>
                     <SectionHeaderComponent title="about me" />
