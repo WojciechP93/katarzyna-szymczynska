@@ -1,49 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.hstack {
-    align-self: center;
-    overflow-y: hidden;
-    overflow-x: hidden;
+.portfolio-content {
+    margin-top: 200px !important;
+    align-items: center;
 }
 
-.content {
-    margin-left: 0 !important;
-    padding: 0 !important;
+.portfolio-horizontal-stack {
+    align-self: center !important;
 }
 
-div.background {
+/* Main tile with images that will enlarge on hover */
+.portfolio-tile {
     background: var(--url);
     background-size: cover;
-    height: 488px;
-    width: 916px;
     transition: transform 0.5s;
+    border-radius: 10px;
 }
 
-div.background:hover {
+.portfolio-tile:hover {
     transform: scale(1.05);
 }
 
-div.transbox {
+/* Box to create transparency on image, it will enlarge together with main tile */
+.portfolio-tile-transbox {
     background-color: #000000c2;
-    height: 488px;
-    width: 916px;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    transition: background-color 0.5s
+    transition: background-color 0.5s;
+    border-radius: 10px;
 }
 
-div.transbox:hover {
-    background-color: #00000073;
-}
-
-div.transbox p {
-    font-size: 64px;
+.portfolio-tile-transbox p {
+    font-size: 48px;
     color: white;
     text-align: center;
     font-weight: 600 !important;
     font-family: "Montserrat" !important;
     text-shadow: 4px 4px 28px rgba(0, 0, 0, 1);
     line-height: 1.3;
+}
+
+.portfolio-tile-transbox:hover {
+    background-color: #00000073;
+}
+
+.big-tile {
+    height: 488px;
+    width: 916px;
+}
+
+.small-tile {
+    width: 454px;
+    height: 313px;
+}
+
+.traditional-art-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #171C2E;
+    border-radius: 10px;
+    height: 131px;
+    width: 1841px;
+    align-self: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px !important;
 }

@@ -60,6 +60,36 @@
     left: 8%;
 }
 
+.page-links {
+    margin-top: 30px;
+}
+
 .social-link {
     margin-left: 0% !important;
+    height: 36px;
+    width: 36px;
+}
+
+.facebook {
+    background: url("./images/facebook-logo-link.svg") no-repeat !important;
+}
+
+.facebook:hover {
+    background: url("./images/facebook-logo-link-hover.svg") no-repeat !important;
+}
+
+.instagram {
+    background: url("./images/instagram-logo-link.svg") no-repeat !important;
+}
+
+.instagram:hover {
+    background: url("./images/instagram-logo-link-hover.svg") no-repeat !important;
+}
+
+.behance {
+    background: url("./images/behance-logo-link.svg") no-repeat !important;
+}
+
+.behance:hover {
+    background: url("./images/behance-logo-link-hover.svg") no-repeat !important;
 }

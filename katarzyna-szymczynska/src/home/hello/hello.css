@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .hello-content {
-    margin-top: 8% !important;
+    margin-top: 200px !important;
 }
 
 .hello-text {
@@ -14,19 +14,20 @@
 }
 
 .hello-column {
-    margin-left: 13%;
+    margin-left: 200px;
     align-self: center;
 }
 
 .image-column {
-    margin-right: 2%;
+    margin-right: 50px;
+    align-self: center;
 }
 
 .about-text {
     font-family: "Montserrat" !important;
     font-size: 32px;
     color: #173292;
-    margin-bottom: 10%;
+    margin-bottom: 50px;
 }
 
 .portfolio-button {
@@ -34,9 +35,9 @@
     font-size: 18px !important;
     font-weight: 700 !important;
     background-color: #980B2D !important;
-    padding: 19px 0 !important;
+    padding: 22px 0 !important;
     border-width: 0 !important;
     border-radius: 40px !important;
-    width: 15em !important;
-    height: 3.5em !important;
+    width: 300px !important;
+    height: 70px !important;
 }

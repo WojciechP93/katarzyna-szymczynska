@@ -3,9 +3,7 @@ import "./section-header.css";
 
 function SectionHeaderComponent(props) {
     return (
-        <>
-            <div className="title">{props.title}</div>
-        </>
+        <p className='title'>{props.title}</p>
     );
 };
 

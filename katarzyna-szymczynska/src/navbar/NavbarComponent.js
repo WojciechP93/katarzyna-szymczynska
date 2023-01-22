@@ -3,7 +3,6 @@ import { Navbar, Nav, Image } from 'react-bootstrap/';
 import './navbar.css';
 import ScrollspyNav from "react-scrollspy-nav";
 import logo from "./images/logo.svg"
-import facebook from "./images/facebook-logo-link.svg"
 import instagram from "./images/instagram-logo-link.svg"
 import behance from "./images/behance-logo-link.svg"
 
@@ -16,16 +15,16 @@ function NavbarComponent() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="justify-content-start" defaultActiveKey="#Section 1">
+                    <Nav className='page-links' defaultActiveKey="#Section 1">
                         <Nav.Link href="#Section 1">home</Nav.Link>
                         <Nav.Link href="#Section 2">about me</Nav.Link>
                         <Nav.Link href="#Section 3">portfolio</Nav.Link>
                         <Nav.Link href="#Section 4">contact</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end">
-                        <Nav.Link className="social-link" href="https://www.facebook.com/k.szymczynska" target="_blank"><Image src={facebook} fluid /></Nav.Link>
-                        <Nav.Link className="social-link" href="https://www.facebook.com/k.szymczynska" target="_blank"><Image src={instagram} fluid /></Nav.Link>
-                        <Nav.Link className="social-link" href="https://www.facebook.com/k.szymczynska" target="_blank"><Image src={behance} fluid /></Nav.Link>
+                        <Nav.Link className="social-link facebook" href="https://www.facebook.com/k.szymczynska" />
+                        <Nav.Link className="social-link instagram" href="https://www.facebook.com/k.szymczynska"><Image className='instagram-icon' fluid /></Nav.Link>
+                        <Nav.Link className="social-link behance" href="https://www.facebook.com/k.szymczynska"><Image className='behance-icon' fluid /></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar >
