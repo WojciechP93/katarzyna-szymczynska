@@ -1,6 +1,6 @@
 import * as React from 'react';
 import "./portfolio.css"
-import { Container, Row, Col, Stack } from 'react-bootstrap/';
+import { Stack } from 'react-bootstrap/';
 import SectionHeaderComponent from '../shared/section_header/SectionHeaderComponent';
 import uiux from './images/ui-ux.png'
 import branding from './images/branding-marketing.png'
