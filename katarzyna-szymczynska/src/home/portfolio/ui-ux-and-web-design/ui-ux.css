@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.ui-ux-container {
+    margin-top: 200px !important;
+    margin-bottom: 200px !important;
+}
+
+.ui-ux-div {
+    align-items: center;
+}
+
+.portfolio-horizontal-stack {
+    align-self: center !important;
+}
+
+.card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px !important;
+    height: 688px !important;
+    width: 920px !important;
+    border: 0px !important;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    height: 502px;
+}
+
+.card-title {
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #62646E;
+    line-height: 39px;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: #62646E;
+    line-height: 39px;
+}
+
+.back-button {
+    background-color: white !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    width: 60px;
+    height: 60px;
+    border-radius: 40px !important;
+    border-color: White !important;
+}
+
+.back-button-arrow {
+    margin-top: 8px;
+}
+
+.breadcrumb {
+    margin: 0px !important;
+}
+
+.project-card {
+    transition: transform 0.5s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}

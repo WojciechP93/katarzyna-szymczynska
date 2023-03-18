@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './about-me.css'
 import { Stack, Image } from 'react-bootstrap/';
-import SectionHeaderComponent from '../shared/section_header/SectionHeaderComponent';
+import SectionHeaderComponent from '../../shared/section_header/SectionHeaderComponent';
 import vector from "./about-me-vector.svg";
 
 function AboutMeComponent() {

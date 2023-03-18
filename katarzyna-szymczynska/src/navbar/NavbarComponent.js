@@ -3,8 +3,6 @@ import { Navbar, Nav, Image } from 'react-bootstrap/';
 import './navbar.css';
 import ScrollspyNav from "react-scrollspy-nav";
 import logo from "./images/logo.svg"
-import instagram from "./images/instagram-logo-link.svg"
-import behance from "./images/behance-logo-link.svg"
 
 function NavbarComponent() {
     return (

@@ -1,7 +1,8 @@
 import * as React from 'react';
 import "./portfolio.css"
 import { Stack } from 'react-bootstrap/';
-import SectionHeaderComponent from '../shared/section_header/SectionHeaderComponent';
+import { Link } from 'react-router-dom';
+import SectionHeaderComponent from '../../shared/section_header/SectionHeaderComponent';
 import uiux from './images/ui-ux.png'
 import branding from './images/branding-marketing.png'
 import digital from './images/graphic-digital.png'
@@ -19,11 +20,13 @@ function PortfolioComponent() {
             <SectionHeaderComponent title="portfolio" />
             <Stack gap={2}>
                 <Stack direction='horizontal' className='portfolio-horizontal-stack' gap={2}>
-                    <div className='portfolio-tile big-tile' style={{ "--url": `url(${uiux})` }} >
-                        <div className="portfolio-tile-transbox big-tile">
-                            <p>UI/UX and web <br /> design</p>
+                    <Link to={{ pathname: "/portfolio/ui-ux-and-web-design-component", hash: "#Section%203" }}>
+                        <div className='portfolio-tile big-tile' style={{ "--url": `url(${uiux})` }} >
+                            <div className="portfolio-tile-transbox big-tile">
+                                <p>UI/UX and web <br /> design</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                     <div className='portfolio-tile big-tile' style={{ "--url": `url(${branding})` }} >
                         <div className="portfolio-tile-transbox big-tile">
                             <p>branding and <br /> marketing designs</p>

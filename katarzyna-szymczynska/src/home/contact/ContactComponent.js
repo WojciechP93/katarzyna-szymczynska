@@ -1,7 +1,7 @@
 import * as React from 'react';
 import "./contact.css";
 import { Button, Stack, Form, InputGroup, FormGroup, Image, Modal } from 'react-bootstrap/';
-import SectionHeaderComponent from '../shared/section_header/SectionHeaderComponent';
+import SectionHeaderComponent from '../../shared/section_header/SectionHeaderComponent';
 import emailjs from '@emailjs/browser';
 import shape1 from "./images/contact-shape1.png";
 import shape2 from "./images/contact-shape2.png";
