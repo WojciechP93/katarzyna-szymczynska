@@ -94,6 +94,13 @@
 
 .carousel-indicators {
     position: fixed !important;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.carousel-indicators:hover {
+    position: fixed !important;
+    opacity: 1;
 }
 
 .indicator {
