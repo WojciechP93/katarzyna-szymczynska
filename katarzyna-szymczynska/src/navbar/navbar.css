@@ -10,12 +10,12 @@
 }
 
 .navigation-bar-brand {
-    margin-left: 1.5%;
+    margin-left: 30px;
 }
 
 .navbar-nav {
     width: 100% !important;
-    margin-right: 2% !important;
+    margin-right: 30px !important;
 }
 
 .navbar-light .navbar-toggler {
@@ -28,8 +28,8 @@
 }
 
 .nav-link {
-    margin-left: 3%;
-    margin-right: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
     color: #62646E !important;
     font-weight: 400 !important;
     font-size: 24px !important;
@@ -46,7 +46,7 @@
 }
 
 .contact-link {
-    margin-right: 12% !important;
+    margin-right: 20px !important;
 }
 
 .logo-image {
@@ -56,8 +56,8 @@
 
 .justify-content-start {
     position: absolute !important;
-    bottom: 15%;
-    left: 8%;
+    bottom: 20px;
+    left: 10px;
 }
 
 .page-links {
@@ -65,7 +65,7 @@
 }
 
 .social-link {
-    margin-left: 0% !important;
+    margin-left: 0px !important;
     height: 36px;
     width: 36px;
 }
@@ -92,4 +92,21 @@
 
 .behance:hover {
     background: url("./images/behance-logo-link-hover.svg") no-repeat !important;
+}
+
+.static-navbar-link {
+    color: #62646E !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    white-space: nowrap !important;
+    font-family: "Montserrat" !important;
+    text-decoration: none;
+}
+
+.static-navbar-link-active {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+    text-decoration-color: #980B2D !important;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2.5px !important;
 }

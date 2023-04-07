@@ -60,7 +60,8 @@
 }
 
 .breadcrumb {
-    margin: 0px !important;
+    margin-left: 40px !important;
+    margin-bottom: 0px !important;
 }
 
 .project-card {

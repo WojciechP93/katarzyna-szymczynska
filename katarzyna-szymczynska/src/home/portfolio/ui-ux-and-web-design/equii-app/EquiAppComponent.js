@@ -14,11 +14,13 @@ import EquiAPP_5 from './images/EquiAPP_5.png';
 import EquiAPP_6 from './images/EquiAPP_6.png';
 import EquiAPP_7 from './images/EquiAPP_7.png';
 import EquiAPP_8 from './images/EquiAPP_8.jpg';
+import NavbarComponent from '../../../../navbar/NavbarComponent'
 
 function EquiAppComponent() {
     const images = [EquiAPP_1, EquiAPP_2, EquiAPP_3, EquiAPP_4, EquiAPP_5, EquiAPP_6, EquiAPP_7, EquiAPP_8]
     return (
         <Container fluid>
+            <NavbarComponent />
             <Row>
                 <Stack className='ui-ux-container'>
                     <Stack direction='horizontal' gap={3}>

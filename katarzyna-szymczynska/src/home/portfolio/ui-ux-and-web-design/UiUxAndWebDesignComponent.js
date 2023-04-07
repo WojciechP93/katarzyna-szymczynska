@@ -14,12 +14,14 @@ import Mti from './images/mti-mockup1.png'
 import Aviator from './images/aviator-mockup1.png'
 import Versant from './images/versant-mockup1.png'
 import Jgl from './images/jgl-mockup1.png'
+import NavbarComponent from '../../../navbar/NavbarComponent'
 
 
 function UiUxAndWebDesignComponent() {
 
     return (
-        <Container fluid>
+        <Container fluid className='main-container'>
+            <NavbarComponent />
             <Row id="Section 3">
                 <Stack className='ui-ux-container'>
                     <Stack direction='horizontal' gap={3}>

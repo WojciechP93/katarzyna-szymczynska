@@ -4,24 +4,29 @@ import AboutMeComponent from "./aboutme/AboutMeComponent";
 import PortfolioComponent from "./portfolio/PortfolioComponent";
 import ContactComponent from "./contact/ContactComponent";
 import HelloComponent from './hello/HelloComponent';
+import ScrollSpyNavbarComponent from '../navbar/ScrollSpyNavbarComponent';
 import './home.css';
 
 function HomeComponent() {
     return (
-        <Container fluid>
-            <Row id="Section 1">
-                <HelloComponent />
-            </Row>
-            <Row id="Section 2">
-                <AboutMeComponent />
-            </Row>
-            <Row id="Section 3">
-                <PortfolioComponent />
-            </Row>
-            <Row id="Section 4">
-                <ContactComponent />
-            </Row>
-        </Container>
+        <>
+            <ScrollSpyNavbarComponent />
+            <Container fluid className='home-container'>
+                <Row id="home">
+                    <HelloComponent />
+                </Row>
+                <Row id="aboutme">
+                    <AboutMeComponent />
+                </Row>
+                <Row id="portfolio">
+                    <PortfolioComponent />
+                </Row>
+                <Row id="contact">
+                    <ContactComponent />
+                </Row>
+            </Container>
+        </>
+
     );
 };
 

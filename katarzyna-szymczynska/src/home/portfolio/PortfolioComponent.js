@@ -13,6 +13,7 @@ import drawings from './images/traditional-art/drawings.png'
 import paintings from './images/traditional-art/paintings.png'
 import murals from './images/traditional-art/murals.png'
 import handicrafts from './images/traditional-art/handicrafts.png'
+import NavbarComponent from '../../navbar/NavbarComponent'
 
 function PortfolioComponent() {
     return (
@@ -20,7 +21,7 @@ function PortfolioComponent() {
             <SectionHeaderComponent title="portfolio" />
             <Stack gap={2}>
                 <Stack direction='horizontal' className='portfolio-horizontal-stack' gap={2}>
-                    <Link to={{ pathname: "/portfolio/ui-ux-and-web-design-component", hash: "#Section%203" }}>
+                    <Link to={{ pathname: "/portfolio/ui-ux-and-web-design-component" }}>
                         <div className='portfolio-tile big-tile' style={{ "--url": `url(${uiux})` }} >
                             <div className="portfolio-tile-transbox big-tile">
                                 <p>UI/UX and web <br /> design</p>
