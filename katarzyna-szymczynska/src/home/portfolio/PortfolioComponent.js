@@ -3,17 +3,16 @@ import "./portfolio.css"
 import { Stack } from 'react-bootstrap/';
 import { Link } from 'react-router-dom';
 import SectionHeaderComponent from '../../shared/section_header/SectionHeaderComponent';
-import uiux from './images/ui-ux.png'
-import branding from './images/branding-marketing.png'
-import digital from './images/graphic-digital.png'
-import animations from './images/animations.png'
-import photography from './images/photography.png'
-import ThreeD from './images/3D.png'
-import drawings from './images/traditional-art/drawings.png'
-import paintings from './images/traditional-art/paintings.png'
-import murals from './images/traditional-art/murals.png'
-import handicrafts from './images/traditional-art/handicrafts.png'
-import NavbarComponent from '../../navbar/NavbarComponent'
+import uiux from '../../images/portfolio/ui-ux.png'
+import branding from '../../images/portfolio/branding-marketing.png'
+import digital from '../../images/portfolio/graphic-digital.png'
+import animations from '../../images/portfolio/animations.png'
+import photography from '../../images/portfolio/photography.png'
+import ThreeD from '../../images/portfolio/3D.png'
+import drawings from '../../images/portfolio/traditional-art/drawings.png'
+import paintings from '../../images/portfolio/traditional-art/paintings.png'
+import murals from '../../images/portfolio/traditional-art/murals.png'
+import handicrafts from '../../images/portfolio/traditional-art/handicrafts.png'
 
 function PortfolioComponent() {
     return (
@@ -21,7 +20,7 @@ function PortfolioComponent() {
             <SectionHeaderComponent title="portfolio" />
             <Stack gap={2}>
                 <Stack direction='horizontal' className='portfolio-horizontal-stack' gap={2}>
-                    <Link to={{ pathname: "/portfolio/ui-ux-and-web-design-component" }}>
+                    <Link className='tile-link' to={{ pathname: "/portfolio/ui-ux-and-web-design-component" }}>
                         <div className='portfolio-tile big-tile' style={{ "--url": `url(${uiux})` }} >
                             <div className="portfolio-tile-transbox big-tile">
                                 <p>UI/UX and web <br /> design</p>

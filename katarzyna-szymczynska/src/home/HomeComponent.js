@@ -11,8 +11,8 @@ function HomeComponent() {
     return (
         <>
             <ScrollSpyNavbarComponent />
-            <Container fluid className='home-container'>
-                <Row id="home">
+            <Container fluid className='home-container' id="home">
+                <Row >
                     <HelloComponent />
                 </Row>
                 <Row id="aboutme">

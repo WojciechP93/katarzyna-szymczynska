@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import "./portfolio.css"
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 
-function PortfolioGalleryComponent(props) {
+function GalleryResponsiveMasonryComponent(props) {
 
     const [show, setShow] = useState(false);
     const [index, setIndex] = useState(false);
@@ -76,4 +76,4 @@ function PortfolioGalleryComponent(props) {
     );
 }
 
-export default PortfolioGalleryComponent;
+export default GalleryResponsiveMasonryComponent;

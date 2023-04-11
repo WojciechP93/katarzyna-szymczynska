@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .hello-content {
-    margin-top: 200px !important;
+    margin-top: 100px !important;
+    justify-content: center !important;
 }
 
 .hello-text {
@@ -11,16 +12,6 @@
     font-weight: 400 !important;
     color: #980B2D;
     margin-bottom: 0;
-}
-
-.hello-column {
-    margin-left: 200px;
-    align-self: center;
-}
-
-.image-column {
-    margin-right: 50px;
-    align-self: center;
 }
 
 .about-text {

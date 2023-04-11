@@ -135,3 +135,62 @@
 .carousel-control-prev {
     margin-left: 20px !important;
 }
+
+.tile-link {
+    text-decoration: none !important;
+}
+
+/* PORTFOLIO SUBJECT STYLES */
+
+.portfolio-subject-container {
+    margin-top: 200px !important;
+    margin-bottom: 200px !important;
+}
+
+.card-title {
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #62646E;
+    line-height: 39px;
+    margin-bottom: 0px;
+}
+
+.card-text {
+    font-family: 'Montserrat' !important;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: #62646E;
+    line-height: 39px;
+}
+
+.breadcrumb {
+    margin-left: 40px !important;
+    margin-bottom: 0px !important;
+}
+
+.project-card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px !important;
+    border: 0px !important;
+    height: 100% !important;
+    transition: transform 0.5s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+.gallery-image {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}

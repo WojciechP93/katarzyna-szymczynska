@@ -13,8 +13,8 @@ function ScrollSpyNavbarComponent() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className='page-links' defaultActiveKey="#home">
-                        <Nav.Link href="#home">home</Nav.Link>
+                    <Nav className='page-links'>
+                        <Nav.Link href="#home" className='nav-link-is-active'>home</Nav.Link>
                         <Nav.Link href="#aboutme">about me</Nav.Link>
                         <Nav.Link href="#portfolio">portfolio</Nav.Link>
                         <Nav.Link href="#contact">contact</Nav.Link>
