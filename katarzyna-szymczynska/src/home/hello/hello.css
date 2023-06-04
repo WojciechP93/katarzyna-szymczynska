@@ -1,34 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .hello-content {
-    margin-top: 100px !important;
-    justify-content: center !important;
+  margin-top: 100px !important;
+  justify-content: center !important;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 10%;
 }
 
 .hello-text {
-    font-family: "Fredericka the Great" !important;
-    font-size: 144px;
-    font-weight: 400 !important;
-    color: #980B2D;
-    margin-bottom: 0;
+  font-family: "Fredericka the Great" !important;
+  font-size: 144px;
+  font-weight: 400 !important;
+  color: #980b2d;
+  margin-bottom: 0;
 }
 
 .about-text {
-    font-family: "Montserrat" !important;
-    font-size: 32px;
-    color: #173292;
-    margin-bottom: 50px;
+  font-family: "Montserrat" !important;
+  font-size: 32px;
+  color: #173292;
+  margin-bottom: 50px;
 }
 
 .portfolio-button {
-    font-family: "Montserrat" !important;
-    font-size: 18px !important;
-    font-weight: 700 !important;
-    background-color: #980B2D !important;
-    padding: 22px 0 !important;
-    border-width: 0 !important;
-    border-radius: 40px !important;
-    width: 300px !important;
-    height: 70px !important;
+  font-family: "Montserrat" !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  background-color: #980b2d !important;
+  padding: 22px 0 !important;
+  border-width: 0 !important;
+  border-radius: 40px !important;
+  width: 300px !important;
+  height: 70px !important;
 }

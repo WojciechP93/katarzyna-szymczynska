@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 .aboutme-content {
-    margin-top: 200px !important;
-    align-items: center;
+  margin-top: 150px !important;
+  align-items: center;
 }
 
 .aboutme-text {
-    font-family: "Open Sans" !important;
-    font-size: 32px !important;
-    font-weight: 400 !important;
-    text-align: center !important;
-    color: #62646E;
-    width: 1163px;
-    height: 242px;
+  font-family: "Open Sans" !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+  color: #62646e;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 .about-me-vector {
-    width: 213.06px;
-    height: 272.09px;
+  width: 213.06px;
+  height: 272.09px;
 }
