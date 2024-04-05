@@ -1,31 +1,50 @@
-import * as React from 'react';
-import { Navbar, Nav, Image } from 'react-bootstrap/';
-import './navbar.css';
-import logo from "./images/logo.svg"
-import { HashLink } from 'react-router-hash-link';
+import * as React from "react";
+import { Navbar, Nav, Image, Container, Row, Col } from "react-bootstrap/";
+import "./navbar.css";
+import ScrollspyNav from "react-scrollspy-nav";
+import logo from "./images/logo.svg";
 
 function NavbarComponent() {
-    return (
-        <Navbar className="navigation-bar" collapseOnSelect expand="lg" style={{ marginLeft: "12px" }}>
-            <Navbar.Brand className="navigation-bar-brand">
-                <Image className="logo-image" src={logo} fluid />
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className='page-links' defaultActiveKey="#home">
-                    <Nav.Link><HashLink className='static-navbar-link' to="/home/#home">home</HashLink></Nav.Link>
-                    <Nav.Link><HashLink className='static-navbar-link' to="/home/#aboutme">about me</HashLink></Nav.Link>
-                    <Nav.Link><HashLink className='static-navbar-link static-navbar-link-active' to="/home/#portfolio">portfolio</HashLink></Nav.Link>
-                    <Nav.Link><HashLink className='static-navbar-link' to="/home/#contact">contact</HashLink></Nav.Link>
+  return (
+    <ScrollspyNav
+      scrollTargetIds={["home", "aboutme", "portfolio", "contact"]}
+      activeNavClass="nav-link-is-active"
+      scrollDuration="100">
+      <Navbar className="navigation-bar" collapseOnSelect expand="lg">
+        <Navbar.Brand className="navigation-bar-brand">
+          <Image className="logo-image" src={logo} fluid />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Container fluid>
+            <Row>
+              <Col xl={3} xs={2} />
+              <Col xl={6} xs={8}>
+                <Nav className="page-links">
+                  <Nav.Link href="#home" className="nav-link-is-active">
+                    home
+                  </Nav.Link>
+                  <Nav.Link href="#aboutme">about me</Nav.Link>
+                  <Nav.Link href="#portfolio">portfolio</Nav.Link>
+                  <Nav.Link href="#contact">contact</Nav.Link>
                 </Nav>
-                <Nav className="justify-content-end">
-                    <Nav.Link className="social-link facebook" href="https://www.facebook.com/k.szymczynska" />
-                    <Nav.Link className="social-link instagram" href="https://www.facebook.com/k.szymczynska"><Image className='instagram-icon' fluid /></Nav.Link>
-                    <Nav.Link className="social-link behance" href="https://www.facebook.com/k.szymczynska"><Image className='behance-icon' fluid /></Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar >
-    );
-};
+              </Col>
+              <Col xl={3} xs={2} />
+            </Row>
+          </Container>
+          <Nav className="social-links">
+            {/* <Nav.Link className="social-link facebook" href="https://www.facebook.com/k.szymczynska" /> */}
+            <Nav.Link className="social-link instagram" href="https://www.facebook.com/k.szymczynska">
+              <Image className="instagram-icon" fluid />
+            </Nav.Link>
+            <Nav.Link className="social-link behance" href="https://www.facebook.com/k.szymczynska">
+              <Image className="behance-icon" fluid />
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </ScrollspyNav>
+  );
+}
 
 export default NavbarComponent;

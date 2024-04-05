@@ -2,7 +2,7 @@ import * as React from "react";
 import "./contact.css";
 import { Button, Stack, Form, InputGroup, FormGroup, Image, Modal, Container, Row, Col } from "react-bootstrap/";
 import SectionHeaderComponent from "../../shared/section_header/SectionHeaderComponent";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import shape1 from "./images/contact-shape1.png";
 import shape2 from "./images/contact-shape2.png";
 
@@ -27,15 +27,15 @@ function ContactComponent() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service_nkd8q7m", "template_vpdiqlm", "#contact-form", "kqvYLGrSXkzKPXAZo").then(
-      (result) => {
-        alert("Wiadomość wysłana");
-        setShow(false);
-      },
-      (error) => {
-        alert("Wystąpił błąd podczas wysyłania wiadomości", error);
-      }
-    );
+    // emailjs.sendForm("service_nkd8q7m", "template_vpdiqlm", "#contact-form", "kqvYLGrSXkzKPXAZo").then(
+    //   (result) => {
+    //     alert("Wiadomość wysłana");
+    //     setShow(false);
+    //   },
+    //   (error) => {
+    //     alert("Wystąpił błąd podczas wysyłania wiadomości", error);
+    //   }
+    // );
 
     setValidated(true);
     // e.target.reset();
