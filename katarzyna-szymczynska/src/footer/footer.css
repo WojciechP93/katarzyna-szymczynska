@@ -1,0 +1,26 @@
+.footer-content {
+  margin: 110px !important;
+}
+
+.logo-image {
+  width: 100px !important;
+  height: 100px !important;
+  margin-right: 30px !important;
+}
+
+.footer-text {
+  color: var(--text-color) !important;
+  white-space: nowrap !important;
+  font-family: "Montserrat" !important;
+  font-size: var(--l) !important;
+}
+
+.name {
+  font-weight: var(--l-weight) !important;
+  margin: 0px !important;
+}
+
+.profession {
+  font-weight: var(--m-weight) !important;
+  margin: 0px !important;
+}
