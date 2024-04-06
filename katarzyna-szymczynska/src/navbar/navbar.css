@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
 .navigation-bar {
-  background-color: #010000 !important;
+  background-color: var(--app-background-color) !important;
   position: fixed !important;
   width: 100% !important;
   border-bottom-style: solid;
-  border-color: #5a220e;
+  border-color: var(--separator-color);
   border-width: 2px;
+  z-index: 1;
 }
 
 .navigation-bar-brand {
@@ -23,26 +22,26 @@
 }
 
 .nav-link {
-  color: #e8e5de !important;
-  font-weight: 400 !important;
-  font-size: 20px !important;
+  color: var(--text-color) !important;
+  font-weight: var(--m-weight) !important;
+  font-size: var(--m) !important;
   white-space: nowrap !important;
   font-family: "Montserrat" !important;
 }
 
 .nav-link-is-active {
-  font-weight: 600 !important;
+  font-weight: var(--l-weight) !important;
 }
 
 .page-links {
   flex-grow: 1;
   justify-content: space-evenly;
-  margin-left: 18px;
+  margin-left: 10px;
 }
 
 .social-links {
-  justify-content: end;
   margin-right: 15px !important;
+  margin-left: 15px !important;
 }
 
 .social-link {
@@ -52,12 +51,12 @@
   width: 36px;
 }
 
-.facebook {
-  background: url("./images/facebook-logo-link.svg") no-repeat !important;
+.linkedin {
+  background: url("./images/linkeding-logo-link.svg") no-repeat !important;
 }
 
-.facebook:hover {
-  background: url("./images/facebook-logo-link-hover.svg") no-repeat !important;
+.linkedin:hover {
+  background: url("./images/linkeding-logo-link-hover.svg") no-repeat !important;
 }
 
 .instagram {
