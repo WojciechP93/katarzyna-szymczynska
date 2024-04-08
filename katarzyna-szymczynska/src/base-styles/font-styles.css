@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
 :root {
   --m-weight: 400;
   --l-weight: 600;
+  --xl-weight: 700;
 
+  --s: 18px;
   --m: 20px;
   --l: 24px;
+  --xxl: 36px;
 }

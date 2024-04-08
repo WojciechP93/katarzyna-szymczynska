@@ -1,43 +1,39 @@
 import * as React from "react";
 import "./hello.css";
+import video from "./images/fire.mp4";
+import bigLogo from "./images/big-logo.svg";
 import { Image, Button, Stack, Container, Row, Col } from "react-bootstrap/";
-import kasia from "./home-kasia-image.svg";
 import { HashLink } from "react-router-hash-link";
 
 function HelloComponent() {
   return (
-    <Container fluid className="portfolio-subject-container">
-      <Row
-        xs={1}
-        lg={2}
-        style={{
-          marginLeft: "50px",
-          marginRight: "50px",
-          overflowX: "hidden",
-          overflowY: "hidden",
-        }}>
-        <Col>
-          <div className="text-container">
-            <p className="hello-text">Hello!</p>
-            <p className="about-text">
-              I am <b>Katarzyna Szymczyńska</b>,<br></br>
-              artistic soul, UI/UX and graphic<br></br>
-              designer by profession.
-            </p>
-            <HashLink className="static-navbar-link static-navbar-link-active" to="/home/#portfolio">
-              <Button className="portfolio-button" href="#Section 3">
-                PORFTOLIO
-              </Button>
-            </HashLink>
-          </div>
-        </Col>
-        <Col>
-          <div>
-            <Image src={kasia} fluid />
-          </div>
-        </Col>
-      </Row>
-    </Container>
+    <div class="video-container">
+      <video loop="true" autoplay="autoplay" id="vid" muted>
+        <source src={video} />
+      </video>
+      <div class="box" />
+      <div class="logo-box">
+        <Image className="big-logo" fluid src={bigLogo} />
+      </div>
+      <div class="caption-box">
+        <Stack>
+          <p className="hello-text">Hello!</p>
+          <p className="welcome-text">Welcome to my design portfolio</p>
+          <Container fluid className="buttons-container">
+            <Row>
+              <Col xs={12} className="button-column">
+                <Button className="download-button" variant="outline-light">
+                  Download CV
+                </Button>
+                <Button className="portfolio-button" variant="light">
+                  Portfolio
+                </Button>
+              </Col>
+            </Row>
+          </Container>
+        </Stack>
+      </div>
+    </div>
   );
 }
 

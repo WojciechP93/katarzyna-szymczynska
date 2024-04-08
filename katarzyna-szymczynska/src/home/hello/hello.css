@@ -1,42 +1,107 @@
-@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
-.hello-content {
-  margin-top: 100px !important;
-  justify-content: center !important;
+.video-container {
+  margin-top: 120px !important;
+  height: 763px !important;
+  width: 100%;
+  position: relative;
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-  margin-top: 10%;
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.video-container .box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.3693),
+    rgba(0, 0, 0, 0.562),
+    rgba(0, 0, 0, 0.86),
+    rgba(0, 0, 0, 1)
+  );
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .logo-box {
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.big-logo {
+  width: 700px;
+}
+
+.caption-box {
+  z-index: 3;
+  position: relative;
+  text-align: center;
+  height: 100% !important;
+  display: grid !important;
+  margin-top: 180px;
+  margin-left: 10px;
 }
 
 .hello-text {
-  font-family: "Fredericka the Great" !important;
+  color: var(--text-color);
   font-size: 144px;
-  font-weight: 400 !important;
-  color: #980b2d;
-  margin-bottom: 0;
+  font-weight: var(--m-weight);
+  font-family: "DM Serif Display" !important;
+  margin: 0px !important;
 }
 
-.about-text {
+.welcome-text {
+  color: var(--text-color);
+  font-size: var(--xxl);
+  font-weight: var(--m-weight);
   font-family: "Montserrat" !important;
-  font-size: 32px;
-  color: #173292;
-  margin-bottom: 50px;
 }
 
-.portfolio-button {
+.buttons-container {
+  justify-content: center;
+  background-color: transparent !important;
+}
+
+.button-column {
+  display: flex !important;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
   font-family: "Montserrat" !important;
-  font-size: 18px !important;
-  font-weight: 700 !important;
-  background-color: #980b2d !important;
-  padding: 22px 0 !important;
-  border-width: 0 !important;
-  border-radius: 40px !important;
-  width: 300px !important;
-  height: 70px !important;
+  font-size: var(--s) !important;
+  font-weight: var(--xl-weight) !important;
+  width: 252px !important;
+  height: 65px;
+  margin-top: 30px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.download-button {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  border-width: 0.5px !important;
+}
+
+.download-button:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  color: var(--text-color) !important;
+}
+
+.portfolio-button:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(10px) !important;
+  color: var(--text-color) !important;
+  border-width: 2px !important;
 }
