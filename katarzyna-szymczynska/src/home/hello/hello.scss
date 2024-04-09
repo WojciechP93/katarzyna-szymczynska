@@ -1,16 +1,21 @@
+@import "../../main.scss";
+
+@media (min-width: 600px) {
+}
+
 .video-container {
   margin-top: 120px !important;
   height: 763px !important;
-  width: 100%;
-  position: relative;
+  width: 100% !important;
+  position: relative !important;
 }
 
 .video-container video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: 0;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  object-fit: cover !important;
+  z-index: 0 !important;
 }
 
 .video-container .box {
@@ -47,27 +52,27 @@
   text-align: center;
   height: 100% !important;
   display: grid !important;
-  margin-top: 180px;
   margin-left: 10px;
 }
 
 .hello-text {
-  color: var(--text-color);
-  font-size: 144px;
-  font-weight: var(--m-weight);
-  font-family: "DM Serif Display" !important;
+  color: $basic-text;
+  font-size: 10rem;
+  font-weight: $m-weight;
+  font-family: $alternate-font !important;
   margin: 0px !important;
 }
 
 .welcome-text {
-  color: var(--text-color);
-  font-size: var(--xxl);
-  font-weight: var(--m-weight);
-  font-family: "Montserrat" !important;
+  color: $basic-text;
+  font-size: $xxl;
+  font-weight: $m-weight;
+  font-family: $basic-font !important;
+  margin-right: 20px !important;
+  margin-left: 20px !important;
 }
 
 .buttons-container {
-  justify-content: center;
   background-color: transparent !important;
 }
 
@@ -78,9 +83,9 @@
 }
 
 button {
-  font-family: "Montserrat" !important;
-  font-size: var(--s) !important;
-  font-weight: var(--xl-weight) !important;
+  font-family: $basic-font !important;
+  font-size: $s !important;
+  font-weight: $xl-weight !important;
   width: 252px !important;
   height: 65px;
   margin-top: 30px !important;
@@ -96,12 +101,12 @@ button {
 
 .download-button:hover {
   background-color: rgba(255, 255, 255, 0.3) !important;
-  color: var(--text-color) !important;
+  color: $basic-text !important;
 }
 
 .portfolio-button:hover {
   background-color: rgba(255, 255, 255, 0.3) !important;
   backdrop-filter: blur(10px) !important;
-  color: var(--text-color) !important;
+  color: $basic-text !important;
   border-width: 2px !important;
 }

@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./hello.css";
+import "./hello.scss";
 import video from "./images/fire.mp4";
 import bigLogo from "./images/big-logo.svg";
 import { Image, Button, Stack, Container, Row, Col } from "react-bootstrap/";
@@ -16,24 +16,60 @@ function HelloComponent() {
         <Image className="big-logo" fluid src={bigLogo} />
       </div>
       <div class="caption-box">
-        <Stack>
-          <p className="hello-text">Hello!</p>
-          <p className="welcome-text">Welcome to my design portfolio</p>
-          <Container fluid className="buttons-container">
-            <Row>
-              <Col xs={12} className="button-column">
-                <Button className="download-button" variant="outline-light">
-                  Download CV
-                </Button>
-                <Button className="portfolio-button" variant="light">
-                  Portfolio
-                </Button>
-              </Col>
-            </Row>
-          </Container>
-        </Stack>
+        <Container fluid style={{ backgroundColor: "transparent" }}>
+          <Row>
+            <Col sm={12} xs={1}>
+              <div style={{ height: "180px" }} />
+            </Col>
+            <Col sm={12} xs={11}>
+              <Stack>
+                <p className="hello-text">Hello!</p>
+                <p className="welcome-text">Welcome to my design portfolio</p>
+                <Container fluid className="buttons-container">
+                  <Row>
+                    <Col xs={12} className="button-column">
+                      <Button className="download-button" variant="outline-light">
+                        Download CV
+                      </Button>
+                      <Button className="portfolio-button" variant="light">
+                        Portfolio
+                      </Button>
+                    </Col>
+                  </Row>
+                </Container>
+              </Stack>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
+    // <div class="video-container">
+    //   <video loop="true" autoplay="autoplay" id="vid" muted>
+    //     <source src={video} />
+    //   </video>
+    //   <div class="box" />
+    //   <div class="logo-box">
+    //     <Image className="big-logo" fluid src={bigLogo} />
+    //   </div>
+    //   <div class="caption-box">
+    //     <Stack>
+    //       <p className="hello-text">Hello!</p>
+    //       <p className="welcome-text">Welcome to my design portfolio</p>
+    //       <Container fluid className="buttons-container">
+    //         <Row>
+    //           <Col xs={12} className="button-column">
+    //             <Button className="download-button" variant="outline-light">
+    //               Download CV
+    //             </Button>
+    //             <Button className="portfolio-button" variant="light">
+    //               Portfolio
+    //             </Button>
+    //           </Col>
+    //         </Row>
+    //       </Container>
+    //     </Stack>
+    //   </div>
+    // </div>
   );
 }
 

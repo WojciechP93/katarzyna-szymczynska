@@ -1,9 +1,11 @@
+@import "../base-styles/variables";
+
 .navigation-bar {
-  background-color: var(--app-background-color) !important;
+  background-color: $app-background !important;
   position: fixed !important;
   width: 100% !important;
   border-bottom-style: solid;
-  border-color: var(--separator-color);
+  border-color: $separator;
   border-width: 2px;
   z-index: 100;
 }
@@ -22,15 +24,15 @@
 }
 
 .nav-link {
-  color: var(--text-color) !important;
-  font-weight: var(--m-weight) !important;
-  font-size: var(--m) !important;
+  color: $basic-text !important;
+  font-weight: $m-weight !important;
+  font-size: $m !important;
   white-space: nowrap !important;
-  font-family: "Montserrat" !important;
+  font-family: $basic-font !important;
 }
 
 .nav-link-is-active {
-  font-weight: var(--l-weight) !important;
+  font-weight: $l-weight !important;
 }
 
 .page-links {

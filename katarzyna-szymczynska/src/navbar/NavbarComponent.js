@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Navbar, Nav, Image, Container, Row, Col, Stack } from "react-bootstrap/";
-import "./navbar.css";
+import "./navbar.scss";
 import ScrollspyNav from "react-scrollspy-nav";
 import logo from "./images/logo.svg";
 

@@ -1,3 +1,5 @@
+@import "../main.scss";
+
 .footer-content {
   margin: 110px !important;
 }
@@ -9,18 +11,18 @@
 }
 
 .footer-text {
-  color: var(--text-color) !important;
+  color: $basic-text !important;
   white-space: nowrap !important;
-  font-family: "Montserrat" !important;
-  font-size: var(--l) !important;
+  font-family: $basic-font !important;
+  font-size: $l !important;
 }
 
 .name {
-  font-weight: var(--l-weight) !important;
+  font-weight: $l-weight !important;
   margin: 0px !important;
 }
 
 .profession {
-  font-weight: var(--m-weight) !important;
+  font-weight: $m-weight !important;
   margin: 0px !important;
 }
