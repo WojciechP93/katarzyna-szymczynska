@@ -10,7 +10,7 @@ function NavbarComponent() {
       scrollTargetIds={["home", "aboutme", "portfolio", "contact"]}
       activeNavClass="nav-link-is-active"
       scrollDuration="100">
-      <Navbar className="navigation-bar" collapseOnSelect expand="lg">
+      <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand className="navigation-bar-brand">
           <Image src={logo} fluid />
         </Navbar.Brand>
@@ -38,12 +38,10 @@ function NavbarComponent() {
                 className="social-link linkedin"
                 href="https://www.linkedin.com/in/katarzyna-szymczy%C5%84ska-72433a98/"
               />
-              <Nav.Link className="social-link instagram" href="https://www.facebook.com/k.szymczynska">
-                <Image className="instagram-icon" fluid />
-              </Nav.Link>
-              <Nav.Link className="social-link behance" href="https://www.facebook.com/k.szymczynska">
-                <Image className="behance-icon" fluid />
-              </Nav.Link>
+              <Nav.Link
+                className="social-link instagram"
+                href="https://www.instagram.com/katie.design.art?igsh=MXV6aDFrNGVlNHBjdA=="></Nav.Link>
+              <Nav.Link className="social-link behance" href="https://www.behance.net/KatarzynaSzymczynska"></Nav.Link>
             </Stack>
           </Nav>
         </Navbar.Collapse>

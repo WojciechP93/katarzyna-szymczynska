@@ -7,11 +7,11 @@ import { HashLink } from "react-router-hash-link";
 
 function HelloComponent() {
   return (
-    <div class="video-container">
-      <video loop="true" autoplay="autoplay" id="vid" muted>
+    <div className="video-container">
+      <video className="fire-video" loop="true" autoplay="autoplay" id="vid" muted>
         <source src={video} />
       </video>
-      <div class="box" />
+      <div class="video-gradient-box" />
       <div class="logo-box">
         <Image className="big-logo" fluid src={bigLogo} />
       </div>

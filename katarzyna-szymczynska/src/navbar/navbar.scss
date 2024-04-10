@@ -1,6 +1,6 @@
 @import "../base-styles/variables";
 
-.navigation-bar {
+nav {
   background-color: $app-background !important;
   position: fixed !important;
   width: 100% !important;
@@ -8,71 +8,78 @@
   border-color: $separator;
   border-width: 2px;
   z-index: 100;
-}
 
-.navigation-bar-brand {
-  margin-left: 35px;
-  margin-right: 0px !important;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+  // Button for drop-down navigation menu for small screens
+  .navbar-toggler {
+    padding: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    width: 54px !important;
 
-.navbar-light .navbar-toggler-icon {
-  height: 3em;
-  width: 3em;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
-}
+    .navbar-toggler-icon {
+      height: 3em;
+      width: 3em;
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    }
+  }
 
-.nav-link {
-  color: $basic-text !important;
-  font-weight: $m-weight !important;
-  font-size: $m !important;
-  white-space: nowrap !important;
-  font-family: $basic-font !important;
-}
+  .navigation-bar-brand {
+    margin-left: 35px;
+    margin-right: 0px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-.nav-link-is-active {
-  font-weight: $l-weight !important;
-}
+  .page-links {
+    justify-content: space-evenly;
+    margin-left: 10px;
 
-.page-links {
-  flex-grow: 1;
-  justify-content: space-evenly;
-  margin-left: 10px;
-}
+    .nav-link {
+      color: $basic-text !important;
+      font-weight: $m-weight !important;
+      font-size: $m !important;
+      white-space: nowrap !important;
+      font-family: $basic-font !important;
+    }
 
-.social-links {
-  margin-right: 15px !important;
-  margin-left: 15px !important;
-}
+    .nav-link-is-active {
+      font-weight: $l-weight !important;
+    }
+  }
 
-.social-link {
-  margin-right: 30px;
-  margin-left: 0px !important;
-  height: 36px;
-  width: 36px;
-}
+  .social-links {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
 
-.linkedin {
-  background: url("./images/linkeding-logo-link.svg") no-repeat !important;
-}
+    .social-link {
+      margin-right: 30px;
+      margin-left: 0px !important;
+      height: 36px;
+      width: 36px;
+    }
 
-.linkedin:hover {
-  background: url("./images/linkeding-logo-link-hover.svg") no-repeat !important;
-}
+    .linkedin {
+      background: url("./images/linkeding-logo-link.svg") no-repeat !important;
+    }
 
-.instagram {
-  background: url("./images/instagram-logo-link.svg") no-repeat !important;
-}
+    .linkedin:hover {
+      background: url("./images/linkeding-logo-link-hover.svg") no-repeat !important;
+    }
 
-.instagram:hover {
-  background: url("./images/instagram-logo-link-hover.svg") no-repeat !important;
-}
+    .instagram {
+      background: url("./images/instagram-logo-link.svg") no-repeat !important;
+    }
 
-.behance {
-  background: url("./images/behance-logo-link.svg") no-repeat !important;
-}
+    .instagram:hover {
+      background: url("./images/instagram-logo-link-hover.svg") no-repeat !important;
+    }
 
-.behance:hover {
-  background: url("./images/behance-logo-link-hover.svg") no-repeat !important;
+    .behance {
+      background: url("./images/behance-logo-link.svg") no-repeat !important;
+    }
+
+    .behance:hover {
+      background: url("./images/behance-logo-link-hover.svg") no-repeat !important;
+    }
+  }
 }

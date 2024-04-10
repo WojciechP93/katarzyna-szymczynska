@@ -2,27 +2,29 @@
 
 .footer-content {
   margin: 110px !important;
-}
 
-.logo-image {
-  width: 100px !important;
-  height: 100px !important;
-  margin-right: 30px !important;
-}
+  .logo-image {
+    width: 100px !important;
+    height: 100px !important;
+    margin-right: 30px !important;
+  }
 
-.footer-text {
-  color: $basic-text !important;
-  white-space: nowrap !important;
-  font-family: $basic-font !important;
-  font-size: $l !important;
-}
+  %footer-text {
+    color: $basic-text !important;
+    white-space: nowrap !important;
+    font-family: $basic-font !important;
+    font-size: $l !important;
+  }
 
-.name {
-  font-weight: $l-weight !important;
-  margin: 0px !important;
-}
+  .name {
+    @extend %footer-text;
+    font-weight: $l-weight !important;
+    margin: 0px !important;
+  }
 
-.profession {
-  font-weight: $m-weight !important;
-  margin: 0px !important;
+  .profession {
+    @extend %footer-text;
+    font-weight: $m-weight !important;
+    margin: 0px !important;
+  }
 }

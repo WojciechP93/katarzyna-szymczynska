@@ -5,17 +5,17 @@ import "./footer.scss";
 
 function FooterComponent() {
   return (
-    <Container fluid>
-      <Row className="footer-content">
+    <Container fluid className="footer-content">
+      <Row>
         <Col>
           <Stack direction="horizontal" gap={3}>
             <Image className="logo-image" src={logo} fluid />
             <Container fluid>
               <Row>
-                <p className="footer-text name">Katarzyna Szymczyńska</p>
+                <p className="name">Katarzyna Szymczyńska</p>
               </Row>
               <Row>
-                <p className="footer-text profession">UI & UX designer</p>
+                <p className="profession">UI & UX designer</p>
               </Row>
             </Container>
           </Stack>
