@@ -19,7 +19,7 @@ function HelloComponent() {
         <Container fluid style={{ backgroundColor: "transparent" }}>
           <Row>
             <Col sm={12} xs={1}>
-              <div style={{ height: "180px" }} />
+              <div className="caption-margin-row" />
             </Col>
             <Col sm={12} xs={11}>
               <Stack>

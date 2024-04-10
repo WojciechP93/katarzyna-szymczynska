@@ -37,8 +37,14 @@
     margin-top: 50px;
 
     .big-logo {
-      width: 700px;
+      max-height: 700px;
+      height: 110vh;
     }
+  }
+
+  .caption-margin-row {
+    height: 20vh !important;
+    max-height: 180px !important;
   }
 
   .caption-box {
