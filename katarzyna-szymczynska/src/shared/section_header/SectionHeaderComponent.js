@@ -1,14 +1,13 @@
-import * as React from 'react';
-import "./section-header.css";
-import { Stack } from 'react-bootstrap/';
+import * as React from "react";
+import "./section-header.scss";
+import { Stack } from "react-bootstrap/";
 
 function SectionHeaderComponent(props) {
-    return (
-        <Stack>
-            <p className='title'>{props.title}</p>
-            <p className='description'>{props.description}</p>
-        </Stack>
-    );
-};
+  return (
+    <Stack>
+      <p className="title">{props.title}</p>
+    </Stack>
+  );
+}
 
 export default SectionHeaderComponent;

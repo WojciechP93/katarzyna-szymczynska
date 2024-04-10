@@ -1,23 +1,31 @@
-import * as React from 'react';
-import './about-me.css'
-import { Stack, Image } from 'react-bootstrap/';
-import SectionHeaderComponent from '../../shared/section_header/SectionHeaderComponent';
-import vector from "./about-me-vector.svg";
+import * as React from "react";
+import "./about-me.scss";
+import { Stack, Image, Container, Row, Col } from "react-bootstrap/";
+import SectionHeaderComponent from "../../shared/section_header/SectionHeaderComponent";
+import photo from "./kasia-photo.svg";
 
 function AboutMeComponent() {
-    return (
-        <Stack className="aboutme-content">
-            <SectionHeaderComponent title="about me" />
-            <p className="aboutme-text">
-                In 2019 I finished studies at <b>Aademy of Fine Arts in Lodz</b>, Poland.
-                Immediately after graduation, I started working as a UI/UX designer in a small startup.
-                I am currently working in a similar position in a large company.
-                Apart from UI and UX I'm working in area of desktop publishing,
-                illustrations and animations, digital painting, 3D modeling, photography and traditional art.
-            </p>
-            <Image className='about-me-vector' src={vector} />
-        </Stack>
-    );
-};
+  return (
+    <Stack className="aboutme-content">
+      <SectionHeaderComponent title="about me" />
+      <Container fluid>
+        <Row className="aboutme-row">
+          <Image src={photo} className="kasia-photo" />
+          <p className="aboutme-text">
+            I'm Katarzyna Szymczyńska and I work as a <b>UI/UX designer</b>. Graduated from the Academy of Fine Arts in
+            Łódź in 2019, specializing in Graphic Design. I excel in diverse creative fields like{" "}
+            <b>desktop publishing, digital painting, 2D animation, photography, and traditional art</b>, bringing a
+            unique perspective to my work.
+            <br />
+            <br />
+            Additionally, <b>I train and mentor</b> aspiring designers in UI/UX, enhancing their skills. Currently, I'm
+            broadening my expertise by mastering tools like Webflow and Shopify, alongside learning the fundamentals of
+            CSS and HTML for web development.
+          </p>
+        </Row>
+      </Container>
+    </Stack>
+  );
+}
 
 export default AboutMeComponent;
