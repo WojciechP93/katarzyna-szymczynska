@@ -9,6 +9,7 @@
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
+    align-items: center !important;
 
     .kasia-photo {
       width: 486px;
@@ -17,11 +18,12 @@
 
     .aboutme-text {
       font-family: $primary-font !important;
-      font-size: $l !important;
+      font-size: $m !important;
       font-weight: $m-weight !important;
       text-align: left !important;
       color: $basic-text;
       width: 645px;
+      margin-left: 40px;
     }
   }
 }

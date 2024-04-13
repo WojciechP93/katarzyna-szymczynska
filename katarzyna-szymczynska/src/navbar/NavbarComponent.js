@@ -1,8 +1,9 @@
 import * as React from "react";
-import { Navbar, Nav, Image, Container, Row, Col, Stack } from "react-bootstrap/";
+import { Navbar, Nav, Image, Container, Row, Col } from "react-bootstrap/";
 import "./navbar.scss";
 import ScrollspyNav from "react-scrollspy-nav";
 import logo from "./images/logo.svg";
+import SocialLinksComponent from "./SocialLinksComponent";
 
 function NavbarComponent() {
   return (
@@ -32,18 +33,7 @@ function NavbarComponent() {
               <Col xl={3} lg={2} />
             </Row>
           </Container>
-          <Nav>
-            <Stack direction="horizontal" className="social-links">
-              <Nav.Link
-                className="social-link linkedin"
-                href="https://www.linkedin.com/in/katarzyna-szymczy%C5%84ska-72433a98/"
-              />
-              <Nav.Link
-                className="social-link instagram"
-                href="https://www.instagram.com/katie.design.art?igsh=MXV6aDFrNGVlNHBjdA=="></Nav.Link>
-              <Nav.Link className="social-link behance" href="https://www.behance.net/KatarzynaSzymczynska"></Nav.Link>
-            </Stack>
-          </Nav>
+          <SocialLinksComponent />
         </Navbar.Collapse>
       </Navbar>
     </ScrollspyNav>

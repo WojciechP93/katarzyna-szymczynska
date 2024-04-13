@@ -2,8 +2,9 @@ import * as React from "react";
 import "./hello.scss";
 import video from "./images/fire.mp4";
 import bigLogo from "./images/big-logo.svg";
-import { Image, Button, Stack, Container, Row, Col } from "react-bootstrap/";
-import { HashLink } from "react-router-hash-link";
+import { Image, Stack, Container, Row, Col } from "react-bootstrap/";
+import AlternateButtonComponent from "../../shared/buttons/AlternateButtonComponent";
+import PrimaryButtonComponent from "../../shared/buttons/PrimaryButtonComponent";
 
 function HelloComponent() {
   return (
@@ -28,12 +29,8 @@ function HelloComponent() {
                 <Container fluid className="buttons-container">
                   <Row>
                     <Col xs={12} className="button-column">
-                      <Button className="download-button" variant="outline-light">
-                        Download CV
-                      </Button>
-                      <Button className="portfolio-button" variant="light">
-                        Portfolio
-                      </Button>
+                      <AlternateButtonComponent content="Download CV" />
+                      <PrimaryButtonComponent content="Portfolio" />
                     </Col>
                   </Row>
                 </Container>

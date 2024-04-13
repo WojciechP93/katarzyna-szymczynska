@@ -1,0 +1,27 @@
+@import "../../main.scss";
+
+button {
+  font-family: $basic-font !important;
+  font-size: $s !important;
+  font-weight: $xl-weight !important;
+  width: 252px !important;
+  height: 65px;
+}
+
+.alternate-button {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  border-width: 0.5px !important;
+}
+
+.alternate-button:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  color: $basic-text !important;
+}
+
+.primary-button:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(10px) !important;
+  color: $basic-text !important;
+  border-width: 2px !important;
+}

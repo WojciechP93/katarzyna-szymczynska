@@ -1,0 +1,78 @@
+@import "../../main.scss";
+
+.contact-stack {
+  margin-top: 45px !important;
+  background-image: url("./images/sparks.png");
+  height: 651px !important;
+  justify-content: space-evenly;
+
+  .contact-text {
+    text-align: center;
+    font-family: $basic-font;
+    font-size: $m;
+    font-weight: $m-weight;
+    color: $greyed-out;
+  }
+
+  .button-div {
+    display: flex;
+    justify-content: center;
+
+    .download-button {
+      font-family: $basic-font !important;
+      font-size: $s !important;
+      font-weight: $xl-weight !important;
+      width: 252px !important;
+      height: 65px;
+      background-color: rgba(255, 255, 255, 0.1) !important;
+      backdrop-filter: blur(10px) !important;
+      border-width: 0.5px !important;
+    }
+
+    .download-button:hover {
+      background-color: rgba(255, 255, 255, 0.3) !important;
+      color: $basic-text !important;
+    }
+  }
+}
+
+// FOR SOME REASON STYLES ARE NOT LOADED FOR SOCIAL LINKS COMPONENT :(
+.nav {
+  justify-content: center !important;
+  margin-left: 25px !important;
+
+  .social-links {
+    margin-top: 15px !important;
+
+    .social-link {
+      margin-right: 30px;
+      margin-left: 0px !important;
+      height: 36px;
+      width: 36px;
+    }
+
+    .linkedin {
+      background: url("../../navbar/images/linkeding-logo-link.svg") no-repeat !important;
+    }
+
+    .linkedin:hover {
+      background: url("../../navbar/images/linkeding-logo-link-hover.svg") no-repeat !important;
+    }
+
+    .instagram {
+      background: url("../../navbar/images/instagram-logo-link.svg") no-repeat !important;
+    }
+
+    .instagram:hover {
+      background: url("../../navbar/images/instagram-logo-link-hover.svg") no-repeat !important;
+    }
+
+    .behance {
+      background: url("../../navbar/images/behance-logo-link.svg") no-repeat !important;
+    }
+
+    .behance:hover {
+      background: url("../../navbar/images/behance-logo-link-hover.svg") no-repeat !important;
+    }
+  }
+}
