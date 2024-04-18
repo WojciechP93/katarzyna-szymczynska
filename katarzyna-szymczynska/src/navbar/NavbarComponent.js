@@ -8,7 +8,7 @@ import SocialLinksComponent from "./SocialLinksComponent";
 function NavbarComponent() {
   return (
     <ScrollspyNav
-      scrollTargetIds={["home", "aboutme", "portfolio", "contact"]}
+      scrollTargetIds={["home", "aboutme", "myskills", "portfolio", "contact"]}
       activeNavClass="nav-link-is-active"
       scrollDuration="100">
       <Navbar collapseOnSelect expand="lg">
@@ -26,6 +26,7 @@ function NavbarComponent() {
                     home
                   </Nav.Link>
                   <Nav.Link href="#aboutme">about me</Nav.Link>
+                  <Nav.Link href="#myskills">my skills</Nav.Link>
                   <Nav.Link href="#portfolio">portfolio</Nav.Link>
                   <Nav.Link href="#contact">contact</Nav.Link>
                 </Nav>

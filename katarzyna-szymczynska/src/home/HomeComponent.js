@@ -6,6 +6,7 @@ import ContactComponent from "./contact/ContactComponent";
 import HelloComponent from "./hello/HelloComponent";
 import NavbarComponent from "../navbar/NavbarComponent";
 import FooterComponent from "../footer/FooterComponent";
+import MySkillsComponent from "./myskills/MySkillsComponent";
 import "./home.css";
 
 function HomeComponent() {
@@ -18,6 +19,9 @@ function HomeComponent() {
         </Row>
         <Row id="aboutme">
           <AboutMeComponent />
+        </Row>
+        <Row id="myskills">
+          <MySkillsComponent />
         </Row>
         <Row id="portfolio">
           <PortfolioComponent />

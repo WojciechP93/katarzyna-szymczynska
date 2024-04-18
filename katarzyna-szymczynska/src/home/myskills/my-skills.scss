@@ -1,0 +1,54 @@
+@import "../../main.scss";
+
+.my-skills-stack {
+  margin-top: 120px !important;
+  justify-content: center;
+
+  .content-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+
+    %text {
+      font-size: $m;
+      font-family: $primary-font;
+      margin-left: 30px;
+    }
+
+    .main-text {
+      @extend %text;
+      color: $greyed-out;
+    }
+
+    .skill-title {
+      @extend %text;
+      color: $basic-text;
+      font-weight: $m-weight;
+    }
+
+    .skills-images-stack {
+      flex-wrap: wrap;
+      margin-top: -15px;
+      margin-left: 15px;
+
+      .skill-image-container {
+        width: 112px;
+        height: 112px;
+        background-color: rgba(137, 134, 134, 0.15);
+        border-radius: 60px;
+        margin: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .skill-image {
+          width: 64px;
+          height: 64px;
+        }
+      }
+    }
+  }
+}
