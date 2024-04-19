@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/katarzyna-szymczynska/static/css/main.6d6be35d.css",
-    "main.js": "/katarzyna-szymczynska/static/js/main.8a8b6c1a.js",
+    "main.css": "/katarzyna-szymczynska/static/css/main.4bb29d94.css",
+    "main.js": "/katarzyna-szymczynska/static/js/main.6548d979.js",
     "static/js/453.ebd98d18.chunk.js": "/katarzyna-szymczynska/static/js/453.ebd98d18.chunk.js",
     "static/media/fire.mp4": "/katarzyna-szymczynska/static/media/fire.aa3658899b0304fa6f2c.mp4",
     "static/media/graphic-digital.png": "/katarzyna-szymczynska/static/media/graphic-digital.45303a1c0428991f45ea.png",
@@ -61,12 +61,12 @@
     "static/media/css3.svg": "/katarzyna-szymczynska/static/media/css3.a7287f12fc6134828d52955bfd6812e5.svg",
     "static/media/html5.svg": "/katarzyna-szymczynska/static/media/html5.88f19228128c834c62f725a5704dcd95.svg",
     "static/media/office365.svg": "/katarzyna-szymczynska/static/media/office365.7f7487dd7b50e7cd054f46c1cb2e3e4c.svg",
-    "main.6d6be35d.css.map": "/katarzyna-szymczynska/static/css/main.6d6be35d.css.map",
-    "main.8a8b6c1a.js.map": "/katarzyna-szymczynska/static/js/main.8a8b6c1a.js.map",
+    "main.4bb29d94.css.map": "/katarzyna-szymczynska/static/css/main.4bb29d94.css.map",
+    "main.6548d979.js.map": "/katarzyna-szymczynska/static/js/main.6548d979.js.map",
     "453.ebd98d18.chunk.js.map": "/katarzyna-szymczynska/static/js/453.ebd98d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d6be35d.css",
-    "static/js/main.8a8b6c1a.js"
+    "static/css/main.4bb29d94.css",
+    "static/js/main.6548d979.js"
   ]
 }
