@@ -6,14 +6,17 @@ function SocialLinksComponent() {
   return (
     <Nav>
       <Stack direction="horizontal" className="social-links">
-        <Nav.Link
-          className="social-link linkedin"
+        <a
           href="https://www.linkedin.com/in/katarzyna-szymczy%C5%84ska-72433a98/"
+          className="social-link linkedin"
+          target="_blank"
         />
-        <Nav.Link
+        <a
           className="social-link instagram"
-          href="https://www.instagram.com/katie.design.art?igsh=MXV6aDFrNGVlNHBjdA=="></Nav.Link>
-        <Nav.Link className="social-link behance" href="https://www.behance.net/KatarzynaSzymczynska"></Nav.Link>
+          target="_blank"
+          href="https://www.instagram.com/katie.design.art?igsh=MXV6aDFrNGVlNHBjdA=="
+        />
+        <a className="social-link behance" href="https://www.behance.net/KatarzynaSzymczynska" target="_blank" />
       </Stack>
     </Nav>
   );
