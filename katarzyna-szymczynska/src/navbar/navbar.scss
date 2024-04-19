@@ -15,6 +15,7 @@ nav {
     margin-left: 0px !important;
     margin-top: 0px !important;
     width: 54px !important;
+    margin-right: 25px;
 
     .navbar-toggler-icon {
       height: 3em;
@@ -23,21 +24,58 @@ nav {
     }
   }
 
+  .logo {
+    height: 50px;
+  }
+
+  .margin-column {
+    margin-left: -50px;
+  }
+
   .navigation-bar-brand {
-    margin-left: 35px;
+    margin-left: 25px;
     margin-right: 0px !important;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    max-width: 340px;
+
+    p {
+      color: $basic-text !important;
+      white-space: nowrap !important;
+      font-family: $basic-font !important;
+      font-size: $xs !important;
+    }
+
+    @media (min-width: 0px) {
+      .name-container {
+        visibility: collapse;
+        width: 0px;
+      }
+    }
+
+    @media (min-width: 450px) {
+      .name-container {
+        visibility: visible;
+        width: auto;
+      }
+    }
+
+    .name {
+      font-weight: $l-weight !important;
+      margin: 0px !important;
+    }
+
+    .profession {
+      font-weight: $m-weight !important;
+      margin: 0px !important;
+    }
   }
 
   .page-links {
     justify-content: space-evenly;
-    margin-left: 10px;
 
     .nav-link {
       color: $basic-text !important;
       font-weight: $m-weight !important;
-      font-size: $m !important;
+      font-size: $s !important;
       white-space: nowrap !important;
       font-family: $basic-font !important;
     }
@@ -48,9 +86,6 @@ nav {
   }
 
   .social-links {
-    margin-right: 15px !important;
-    margin-left: 15px !important;
-
     .social-link {
       margin-right: 30px;
       margin-left: 0px !important;

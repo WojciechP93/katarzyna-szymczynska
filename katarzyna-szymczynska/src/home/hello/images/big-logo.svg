@@ -3,7 +3,7 @@
 <!-- @import url("../hello.css"); -->
 <style>
 <!-- path {fill:rgba(159, 82, 38, 0.4);} -->
-path {fill:rgba(135, 25, 0, 0.4);}
+path {fill:rgba(135, 25, 0, 0.2);}
 <!-- path {fill:rgba(90, 34, 14, 0.6);} -->
 <!-- path {fill:rgba(0, 0, 0, 0.5);} -->
 </style>

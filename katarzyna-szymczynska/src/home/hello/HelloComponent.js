@@ -19,10 +19,10 @@ function HelloComponent() {
       <div class="caption-box">
         <Container fluid style={{ backgroundColor: "transparent" }}>
           <Row>
-            <Col sm={12} xs={1}>
+            <Col sm={12}>
               <div className="caption-margin-row" />
             </Col>
-            <Col sm={12} xs={11}>
+            <Col sm={12}>
               <Stack>
                 <p className="hello-text">Hello!</p>
                 <p className="welcome-text">Welcome to my design portfolio</p>

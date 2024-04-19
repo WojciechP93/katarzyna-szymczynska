@@ -131,8 +131,8 @@ function MySkillsComponent() {
               projects and disciplines.
             </p>
           </Col>
-          <Col xs={12} xl={6} style={{ maxWidth: "680px" }}>
-            <Stack direction="horizontal" className="skills-images-stack">
+          <Col xs={12} xl={6} className="skills-images-column">
+            <Stack direction="horizontal" className="images skills-images-stack">
               {skills.map((skill, i) => (
                 <div className="skill-image-container">
                   <Image src={skill.image} className="skill-image" />

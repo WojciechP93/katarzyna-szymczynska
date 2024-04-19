@@ -1,7 +1,7 @@
 @import "../../main.scss";
 
 .video-container {
-  margin-top: 120px !important;
+  margin-top: 75px !important;
   height: 763px !important;
   width: 100% !important;
   position: relative !important;
@@ -38,7 +38,7 @@
 
     .big-logo {
       max-height: 700px;
-      height: 110vh;
+      height: 80vh;
     }
   }
 
@@ -55,21 +55,30 @@
     display: grid !important;
     margin-left: 10px;
 
-    %caption-text {
-      color: $basic-text;
-      font-weight: $m-weight;
+    @media (min-width: 0px) {
+      .hello-text {
+        color: $basic-text;
+        font-weight: $m-weight;
+        font-size: 6rem;
+        font-family: $alternate-font !important;
+        margin: 0px !important;
+      }
     }
 
-    .hello-text {
-      @extend %caption-text;
-      font-size: 10rem;
-      font-family: $alternate-font !important;
-      margin: 0px !important;
+    @media (min-width: 575px) {
+      .hello-text {
+        color: $basic-text;
+        font-weight: $m-weight;
+        font-size: 8rem;
+        font-family: $alternate-font !important;
+        margin: 0px !important;
+      }
     }
 
     .welcome-text {
-      @extend %caption-text;
-      font-size: $xxl;
+      color: $basic-text;
+      font-weight: $m-weight;
+      font-size: $l;
       font-family: $basic-font !important;
       margin-right: 20px !important;
       margin-left: 20px !important;
@@ -85,7 +94,7 @@
 
         button {
           margin-top: 30px !important;
-          margin-left: 20px !important;
+          margin-left: 10px !important;
           margin-right: 20px !important;
         }
       }

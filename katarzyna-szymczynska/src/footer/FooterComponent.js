@@ -2,24 +2,13 @@ import * as React from "react";
 import { Image, Container, Row, Col, Stack } from "react-bootstrap/";
 import logo from "../navbar/images/logo.svg";
 import "./footer.scss";
+import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 function FooterComponent() {
   return (
-    <Container fluid className="footer-content">
+    <Container fluid>
       <Row>
-        <Col>
-          <Stack direction="horizontal" gap={3}>
-            <Image className="logo-image" src={logo} fluid />
-            <Container fluid>
-              <Row>
-                <p className="name">Katarzyna Szymczyńska</p>
-              </Row>
-              <Row>
-                <p className="profession">UI & UX designer</p>
-              </Row>
-            </Container>
-          </Stack>
-        </Col>
+        <p className="footer-text">&#169; Designed by Katarzyna Szymczyńska in 2024. All rights reserved.</p>
       </Row>
     </Container>
   );

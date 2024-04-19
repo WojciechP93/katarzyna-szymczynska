@@ -29,10 +29,27 @@
       font-weight: $m-weight;
     }
 
+    .skills-images-column {
+      max-width: 680px;
+    }
+
+    @media (min-width: 0px) {
+      .images {
+        display: none;
+      }
+    }
+
+    @media (min-width: 327px) {
+      .images {
+        display: flex;
+      }
+    }
+
     .skills-images-stack {
       flex-wrap: wrap;
       margin-top: -15px;
       margin-left: 15px;
+      justify-content: center;
 
       .skill-image-container {
         width: 112px;
