@@ -1,0 +1,114 @@
+@import "../../main.scss";
+
+/* Main tile with images that will enlarge on hover */
+
+.portfolio-container {
+  margin-top: 80px !important;
+  background-image: url("./images/background.svg");
+  background-position: center;
+  background-size: cover;
+  min-height: 980px;
+
+  %base-row {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+  }
+
+  .content-row {
+    @extend %base-row;
+
+    .content-column {
+      max-width: 750px;
+      margin-top: 50px;
+      .portftolio-description {
+        font-size: $m;
+        font-weight: $m-weight !important;
+        font-family: $primary-font !important;
+        color: $basic-text;
+        line-height: 33px;
+        color: $greyed-out;
+        margin-bottom: 40px;
+      }
+    }
+
+    .logo-column {
+      display: flex;
+      justify-content: center;
+
+      @media (min-width: 0px) {
+        .big-logo {
+          display: none;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .big-logo {
+          display: inline;
+          max-width: 320px;
+        }
+      }
+    }
+  }
+
+  .tiles-row {
+    @extend %base-row;
+    padding-top: 50px !important;
+    min-height: 280px;
+
+    .tile-column {
+      max-width: 500px;
+      .tile {
+        height: 200px;
+        background-color: rgba(137, 134, 134, 0.15);
+        transition: height 0.5s, background-color 0.5s;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .tile:hover {
+        height: 265px;
+        background-color: rgba(255, 231, 196, 0.2);
+      }
+
+      .tile:hover p {
+        opacity: 1;
+      }
+
+      P {
+        transition: opacity 0.5s;
+        color: $basic-text;
+        opacity: 0.5;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+      .category-title {
+        font-size: $xxxl;
+        text-align: center;
+        font-weight: $l-weight !important;
+        font-family: $basic-font !important;
+      }
+
+      @media (min-width: 0px) {
+        .category-description {
+          display: none;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .category-description {
+          font-size: $m;
+          text-align: center;
+          margin-top: 40px;
+          font-weight: $m-weight !important;
+          font-family: $primary-font !important;
+          display: block;
+        }
+      }
+    }
+  }
+}

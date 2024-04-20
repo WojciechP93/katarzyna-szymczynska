@@ -1,8 +1,10 @@
 import * as React from "react";
-import "./portfolio.css";
-import { Stack, Container, Row, Col } from "react-bootstrap/";
+import "./portfolio.scss";
+import { Stack, Container, Row, Col, Image } from "react-bootstrap/";
 import { Link } from "react-router-dom";
 import SectionHeaderComponent from "../../shared/section_header/SectionHeaderComponent";
+import AlternateButtonComponent from "../../shared/buttons/AlternateButtonComponent";
+import logo from "./images/big-logo.svg";
 import uiux from "../../images/portfolio/ui-ux.png";
 import branding from "../../images/portfolio/branding-marketing.png";
 import digital from "../../images/portfolio/graphic-digital.png";
@@ -16,115 +18,45 @@ import handicrafts from "../../images/portfolio/traditional-art/handicrafts.png"
 
 function PortfolioComponent() {
   return (
-    <Container fluid className="portfolio-subject-container">
-      <Row>
+    <Container fluid className="portfolio-container">
+      <Row className="content-row">
         <SectionHeaderComponent title="portfolio" />
       </Row>
-      <Row
-        xs={1}
-        xl={2}
-        style={{
-          marginLeft: "25px",
-          marginRight: "25px",
-          overflowX: "hidden",
-          overflowY: "hidden",
-          paddingTop: "15px",
-          paddingBottom: "15px",
-        }}>
-        <Col style={{ marginBottom: "10px" }}>
-          <Link className="tile-link" to={{ pathname: "/portfolio/ui-ux-and-web-design-component" }}>
-            <div className="portfolio-tile big-tile" style={{ "--url": `url(${uiux})` }}>
-              <div className="portfolio-tile-transbox big-tile">
-                <p>
-                  UI/UX and web <br /> design
-                </p>
-              </div>
-            </div>
-          </Link>
+      <Row xs={1} lg={2} className="content-row">
+        <Col className="content-column">
+          <p className="portftolio-description">
+            In my portfolio, I chose the motif of fire because it's my element - I'm a Leo. In my logo, I incorporate
+            the triquetra symbol, inspired by Celtic culture, to represent the trinity of body, mind, and spirit within
+            each individual.
+            <br />
+            <br />
+            This concept helps me organize my projects into three distinct areas: intellect, reflected in my
+            intellectual work; physicality, seen in the tangible outcomes of my efforts; and spirituality, which
+            influences my artistic perspective and passions.
+          </p>
+          <AlternateButtonComponent content="Behance portfolio" />
         </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile big-tile" style={{ "--url": `url(${branding})` }}>
-            <div className="portfolio-tile-transbox big-tile">
-              <p>
-                branding and <br /> marketing designs
-              </p>
-            </div>
-          </div>
-        </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile big-tile" style={{ "--url": `url(${digital})` }}>
-            <div className="portfolio-tile-transbox big-tile">
-              <p>
-                graphic designs and <br /> digital arts
-              </p>
-            </div>
-          </div>
-        </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile big-tile" style={{ "--url": `url(${animations})` }}>
-            <div className="portfolio-tile-transbox big-tile">
-              <p>animations</p>
-            </div>
-          </div>
-        </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile big-tile" style={{ "--url": `url(${photography})` }}>
-            <div className="portfolio-tile-transbox big-tile">
-              <p>photographies</p>
-            </div>
-          </div>
-        </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile big-tile" style={{ "--url": `url(${ThreeD})` }}>
-            <div className="portfolio-tile-transbox big-tile">
-              <p>3D graphics</p>
-            </div>
-          </div>
+        <Col className="content-column logo-column">
+          <Image src={logo} fluid className="big-logo" />
         </Col>
       </Row>
-      <Row>
-        <p className="traditional-art-title">traditional-art</p>
-      </Row>
-      <Row
-        xs={1}
-        md={2}
-        xl={4}
-        style={{
-          marginLeft: "25px",
-          marginRight: "25px",
-          overflowX: "hidden",
-          overflowY: "hidden",
-          paddingTop: "15px",
-          paddingBottom: "15px",
-        }}>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile small-tile" style={{ "--url": `url(${drawings})` }}>
-            <div className="portfolio-tile-transbox small-tile">
-              <p>drawings</p>
-            </div>
+      <Row xs={1} xl={3} className="tiles-row">
+        <Col className="tile-column">
+          <div className="tile">
+            <p className="category-title">mind</p>
+            <p className="category-description">IT work, encompassing UI/UX projects and computer graphics</p>
           </div>
         </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile small-tile" style={{ "--url": `url(${paintings})` }}>
-            <div className="portfolio-tile-transbox small-tile">
-              <p>paintings</p>
-            </div>
+        <Col className="tile-column">
+          <div className="tile">
+            <p className="category-title">body</p>
+            <p className="category-description">physical manifestations of work, such as printed materials</p>
           </div>
         </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile small-tile" style={{ "--url": `url(${murals})` }}>
-            <div className="portfolio-tile-transbox small-tile">
-              <p>murals</p>
-            </div>
-          </div>
-        </Col>
-        <Col style={{ marginBottom: "10px" }}>
-          <div className="portfolio-tile small-tile" style={{ "--url": `url(${handicrafts})` }}>
-            <div className="portfolio-tile-transbox small-tile">
-              <p>
-                handicrafts <br /> and other <br /> creations
-              </p>
-            </div>
+        <Col className="tile-column">
+          <div className="tile">
+            <p className="category-title">spirit</p>
+            <p className="category-description">work inspired by my passions and hobbies</p>
           </div>
         </Col>
       </Row>

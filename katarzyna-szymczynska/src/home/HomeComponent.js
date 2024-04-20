@@ -23,7 +23,9 @@ function HomeComponent() {
         <Row id="myskills">
           <MySkillsComponent />
         </Row>
-        <Row id="portfolio">{/* <PortfolioComponent /> */}</Row>
+        <Row id="portfolio">
+          <PortfolioComponent />
+        </Row>
         <Row id="contact">
           <ContactComponent />
         </Row>

@@ -1,7 +1,7 @@
 @import "../../main.scss";
 
 .my-skills-stack {
-  margin-top: 120px !important;
+  margin-top: 80px !important;
   justify-content: center;
 
   .content-row {
@@ -15,7 +15,6 @@
     %text {
       font-size: $m;
       font-family: $primary-font;
-      margin-left: 30px;
     }
 
     .main-text {
@@ -27,10 +26,11 @@
       @extend %text;
       color: $basic-text;
       font-weight: $m-weight;
+      margin-left: 30px;
     }
 
     .skills-images-column {
-      max-width: 680px;
+      max-width: 750px;
     }
 
     @media (min-width: 0px) {

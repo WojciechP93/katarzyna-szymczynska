@@ -105,7 +105,7 @@ function MySkillsComponent() {
       <SectionHeaderComponent title="my skills" />
       <Container fluid>
         <Row className="content-row">
-          <Col xs={12} xl={6} style={{ maxWidth: "680px" }}>
+          <Col xs={12} xl={6} className="skills-images-column">
             <p className="main-text">
               In my work, I harness a diverse array of tools and software, perpetually expanding my knowledge and skills
               while seamlessly integrating others into my daily workflow. Among these are:
