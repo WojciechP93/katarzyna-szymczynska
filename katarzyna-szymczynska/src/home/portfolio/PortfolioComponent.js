@@ -19,10 +19,10 @@ import handicrafts from "../../images/portfolio/traditional-art/handicrafts.png"
 function PortfolioComponent() {
   return (
     <Container fluid className="portfolio-container">
-      <Row className="content-row">
+      <Row>
         <SectionHeaderComponent title="portfolio" />
       </Row>
-      <Row xs={1} lg={2} className="content-row">
+      <Row xs={1} xl={2} className="content-row">
         <Col className="content-column">
           <p className="portftolio-description">
             In my portfolio, I chose the motif of fire because it's my element - I'm a Leo. In my logo, I incorporate

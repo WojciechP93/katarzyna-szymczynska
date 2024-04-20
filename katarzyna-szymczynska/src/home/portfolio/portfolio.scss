@@ -10,18 +10,18 @@
   min-height: 980px;
 
   %base-row {
-    margin-left: 100px !important;
-    margin-right: 100px !important;
+    margin-right: 40px !important;
     overflow-x: hidden;
     overflow-y: hidden;
     justify-content: center;
+    margin-left: 40px;
   }
 
   .content-row {
     @extend %base-row;
 
     .content-column {
-      max-width: 750px;
+      max-width: 655px;
       margin-top: 50px;
       .portftolio-description {
         font-size: $m;
@@ -44,7 +44,7 @@
         }
       }
 
-      @media (min-width: 992px) {
+      @media (min-width: 1200px) {
         .big-logo {
           display: inline;
           max-width: 320px;
@@ -58,56 +58,82 @@
     padding-top: 50px !important;
     min-height: 280px;
 
-    .tile-column {
-      max-width: 500px;
+    @media (min-width: 0px) {
+      .tile-column {
+        max-width: 655px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .tile-column {
+        max-width: 440px;
+      }
+    }
+
+    @mixin basic-tile {
+      background-color: rgba(137, 134, 134, 0.15);
+      transition: height 0.5s, background-color 0.5s;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width: 0px) {
       .tile {
-        height: 200px;
-        background-color: rgba(137, 134, 134, 0.15);
-        transition: height 0.5s, background-color 0.5s;
-        border-radius: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        @include basic-tile;
+        height: 82px;
       }
 
+      .tile:hover {
+        background-color: rgba(255, 231, 196, 0.2);
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .tile {
+        @include basic-tile;
+        height: 200px;
+      }
       .tile:hover {
         height: 265px;
         background-color: rgba(255, 231, 196, 0.2);
       }
+    }
 
-      .tile:hover p {
-        opacity: 1;
+    .tile:hover p {
+      opacity: 1;
+    }
+
+    P {
+      transition: opacity 0.5s;
+      color: $basic-text;
+      opacity: 0.5;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    .category-title {
+      font-size: $xxl;
+      text-align: center;
+      padding-top: 13px;
+      font-weight: $l-weight !important;
+      font-family: $basic-font !important;
+    }
+
+    @media (min-width: 0px) {
+      .category-description {
+        display: none;
       }
+    }
 
-      P {
-        transition: opacity 0.5s;
-        color: $basic-text;
-        opacity: 0.5;
-        margin-right: 10px;
-        margin-left: 10px;
-      }
-
-      .category-title {
-        font-size: $xxxl;
+    @media (min-width: 1200px) {
+      .category-description {
+        font-size: $m;
         text-align: center;
-        font-weight: $l-weight !important;
-        font-family: $basic-font !important;
-      }
-
-      @media (min-width: 0px) {
-        .category-description {
-          display: none;
-        }
-      }
-
-      @media (min-width: 992px) {
-        .category-description {
-          font-size: $m;
-          text-align: center;
-          margin-top: 40px;
-          font-weight: $m-weight !important;
-          font-family: $primary-font !important;
-          display: block;
-        }
+        margin-top: 40px;
+        font-weight: $m-weight !important;
+        font-family: $primary-font !important;
+        display: block;
       }
     }
   }
