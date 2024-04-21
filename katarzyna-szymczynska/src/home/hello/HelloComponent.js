@@ -2,6 +2,7 @@ import * as React from "react";
 import "./hello.scss";
 import video from "./images/fire.mp4";
 import bigLogo from "./images/big-logo.svg";
+import staticFire from "./images/static-fire.png";
 import { Image, Stack, Container, Row, Col } from "react-bootstrap/";
 import AlternateButtonComponent from "../../shared/buttons/AlternateButtonComponent";
 import PrimaryButtonComponent from "../../shared/buttons/PrimaryButtonComponent";
@@ -9,8 +10,8 @@ import PrimaryButtonComponent from "../../shared/buttons/PrimaryButtonComponent"
 function HelloComponent() {
   return (
     <div className="video-container">
-      <video className="fire-video" loop="true" autoplay="autoplay" id="vid" muted>
-        <source src={video} />
+      <video className="fire-video" loop="true" autoplay="autoplay" id="vid" muted poster={staticFire}>
+        <source src={video} type="video/mp4" />
       </video>
       <div class="video-gradient-box" />
       <div class="logo-box">
