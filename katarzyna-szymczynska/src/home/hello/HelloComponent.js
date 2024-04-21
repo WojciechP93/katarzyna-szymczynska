@@ -2,7 +2,7 @@ import * as React from "react";
 import "./hello.scss";
 import video from "./images/fire.mp4";
 import bigLogo from "./images/big-logo.svg";
-import staticFire from "./images/static-fire.png";
+import staticFire from "./images/static-fire.jpg";
 import { Image, Stack, Container, Row, Col } from "react-bootstrap/";
 import AlternateButtonComponent from "../../shared/buttons/AlternateButtonComponent";
 import PrimaryButtonComponent from "../../shared/buttons/PrimaryButtonComponent";
