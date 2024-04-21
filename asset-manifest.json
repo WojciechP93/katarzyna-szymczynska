@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/katarzyna-szymczynska/static/css/main.a461556d.css",
-    "main.js": "/katarzyna-szymczynska/static/js/main.bf6645a9.js",
+    "main.css": "/katarzyna-szymczynska/static/css/main.f318f226.css",
+    "main.js": "/katarzyna-szymczynska/static/js/main.c7cd82a3.js",
     "static/js/453.18bb1052.chunk.js": "/katarzyna-szymczynska/static/js/453.18bb1052.chunk.js",
     "static/media/fire.mp4": "/katarzyna-szymczynska/static/media/fire.aa3658899b0304fa6f2c.mp4",
     "static/media/graphic-digital.png": "/katarzyna-szymczynska/static/media/graphic-digital.45303a1c0428991f45ea.png",
-    "static/media/kasia-photo.svg": "/katarzyna-szymczynska/static/media/kasia-photo.515783d37c3357ef52d071a8439f3fac.svg",
     "static/media/photography.png": "/katarzyna-szymczynska/static/media/photography.466b830a96f79a7b7dfe.png",
     "static/media/3D.png": "/katarzyna-szymczynska/static/media/3D.f26abb273ff894a135a7.png",
     "static/media/branding-marketing.png": "/katarzyna-szymczynska/static/media/branding-marketing.6c2e5561341b418b738c.png",
     "static/media/paintings.png": "/katarzyna-szymczynska/static/media/paintings.4a8ed55cbbb3bf50b280.png",
     "static/media/EquiAPP_1.png": "/katarzyna-szymczynska/static/media/EquiAPP_1.c188170ee6d3f7a7e250.png",
-    "static/media/static-fire.png": "/katarzyna-szymczynska/static/media/static-fire.a8e8dbd6709d7a36e868.png",
     "static/media/murals.png": "/katarzyna-szymczynska/static/media/murals.6b7c46059879c93e3891.png",
     "static/media/handicrafts.png": "/katarzyna-szymczynska/static/media/handicrafts.456045207970cedb0364.png",
     "static/media/drawings.png": "/katarzyna-szymczynska/static/media/drawings.c22d57efd878589361c6.png",
@@ -34,7 +32,9 @@
     "static/media/EquiAPP_2.png": "/katarzyna-szymczynska/static/media/EquiAPP_2.ffd0ec029c6e069e9866.png",
     "static/media/tapit-mobile-mockup1.png": "/katarzyna-szymczynska/static/media/tapit-mobile-mockup1.08babe2623f167c72f76.png",
     "static/media/aviator-mockup1.png": "/katarzyna-szymczynska/static/media/aviator-mockup1.010ae1fff4c89a01c562.png",
+    "static/media/kasia-photo.png": "/katarzyna-szymczynska/static/media/kasia-photo.fdc58036ed745bfc4b75.png",
     "static/media/jgl-mockup1.png": "/katarzyna-szymczynska/static/media/jgl-mockup1.b15b21f8f2d1964d99a3.png",
+    "static/media/static-fire.jpg": "/katarzyna-szymczynska/static/media/static-fire.82a5040445e6a61eff49.jpg",
     "static/media/logo.svg": "/katarzyna-szymczynska/static/media/logo.bc6f022f4598ac8898901be8994bd9c5.svg",
     "static/media/big-logo.svg": "/katarzyna-szymczynska/static/media/big-logo.6a637cfccefe58e7f84af490613139d2.svg",
     "static/media/background.svg": "/katarzyna-szymczynska/static/media/background.8b4c91cc27545f9f7c5f.svg",
@@ -63,12 +63,12 @@
     "static/media/css3.svg": "/katarzyna-szymczynska/static/media/css3.a7287f12fc6134828d52955bfd6812e5.svg",
     "static/media/html5.svg": "/katarzyna-szymczynska/static/media/html5.88f19228128c834c62f725a5704dcd95.svg",
     "static/media/office365.svg": "/katarzyna-szymczynska/static/media/office365.7f7487dd7b50e7cd054f46c1cb2e3e4c.svg",
-    "main.a461556d.css.map": "/katarzyna-szymczynska/static/css/main.a461556d.css.map",
-    "main.bf6645a9.js.map": "/katarzyna-szymczynska/static/js/main.bf6645a9.js.map",
+    "main.f318f226.css.map": "/katarzyna-szymczynska/static/css/main.f318f226.css.map",
+    "main.c7cd82a3.js.map": "/katarzyna-szymczynska/static/js/main.c7cd82a3.js.map",
     "453.18bb1052.chunk.js.map": "/katarzyna-szymczynska/static/js/453.18bb1052.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a461556d.css",
-    "static/js/main.bf6645a9.js"
+    "static/css/main.f318f226.css",
+    "static/js/main.c7cd82a3.js"
   ]
 }
