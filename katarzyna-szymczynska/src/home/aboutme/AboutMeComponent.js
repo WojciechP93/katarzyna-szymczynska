@@ -2,7 +2,7 @@ import * as React from "react";
 import "./about-me.scss";
 import { Stack, Image, Container, Row, Col } from "react-bootstrap/";
 import SectionHeaderComponent from "../../shared/section_header/SectionHeaderComponent";
-import photo from "./images/kasia-photo.svg";
+import photo from "./images/kasia-photo.png";
 
 function AboutMeComponent() {
   return (
