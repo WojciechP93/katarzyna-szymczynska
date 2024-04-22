@@ -101,10 +101,9 @@ function App() {
           <Routes>
             <Route path="/home" element={<HomeComponent />} />
             <Route path="/" element={<Navigate replace to="/home" />} />
-            <Route
-              path="/portfolio/ui-ux-and-web-design-component"
-              element={<SubjectComponent items={uiux} subjectTitle="UI/UX and web design" />}
-            />
+            <Route path="/portfolio/mind" element={<SubjectComponent items={uiux} subjectTitle="mind" />} />
+            <Route path="/portfolio/body" element={<SubjectComponent items={uiux} subjectTitle="body" />} />
+            <Route path="/portfolio/spirit" element={<SubjectComponent items={uiux} subjectTitle="spirit" />} />
             <Route
               path="/portfolio/ui-ux-and-web-design-component/equi-app"
               element={

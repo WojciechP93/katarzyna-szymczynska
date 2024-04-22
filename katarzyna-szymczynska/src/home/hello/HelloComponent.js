@@ -4,6 +4,8 @@ import video from "./images/fire.mp4";
 import bigLogo from "./images/big-logo.svg";
 import staticFire from "./images/static-fire.jpg";
 import { Image, Stack, Container, Row, Col } from "react-bootstrap/";
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import AlternateButtonComponent from "../../shared/buttons/AlternateButtonComponent";
 import PrimaryButtonComponent from "../../shared/buttons/PrimaryButtonComponent";
 
@@ -30,8 +32,12 @@ function HelloComponent() {
                 <Container fluid className="buttons-container">
                   <Row>
                     <Col xs={12} className="button-column">
-                      <AlternateButtonComponent content="Download CV" />
-                      <PrimaryButtonComponent content="Portfolio" />
+                      <Link to="https://drive.google.com/file/d/1wtnldRxAFiJ1qcudpMMS5AbLwS40-1gI/view" target="_blank">
+                        <AlternateButtonComponent content="Download CV" />
+                      </Link>
+                      <HashLink to="/home/#portfolio">
+                        <PrimaryButtonComponent content="Portfolio" />
+                      </HashLink>
                     </Col>
                   </Row>
                 </Container>

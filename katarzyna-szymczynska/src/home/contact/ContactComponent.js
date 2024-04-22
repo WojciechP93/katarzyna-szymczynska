@@ -4,6 +4,7 @@ import { Stack, Container, Row, Col, Button } from "react-bootstrap/";
 import SectionHeaderComponent from "../../shared/section_header/SectionHeaderComponent";
 import SocialLinksComponent from "../../navbar/SocialLinksComponent";
 import AlternateButtonComponent from "../../shared/buttons/AlternateButtonComponent";
+import { Link } from "react-router-dom";
 
 function ContactComponent() {
   return (
@@ -24,7 +25,9 @@ function ContactComponent() {
       </div>
 
       <div className="button-div">
-        <AlternateButtonComponent content="Download CV" />
+        <Link to="https://drive.google.com/file/d/1wtnldRxAFiJ1qcudpMMS5AbLwS40-1gI/view" target="_blank">
+          <AlternateButtonComponent content="Download CV" />
+        </Link>
       </div>
     </Stack>
   );

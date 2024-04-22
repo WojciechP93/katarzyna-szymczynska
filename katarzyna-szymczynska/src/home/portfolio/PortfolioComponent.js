@@ -1,20 +1,10 @@
 import * as React from "react";
 import "./portfolio.scss";
-import { Stack, Container, Row, Col, Image } from "react-bootstrap/";
+import { Container, Row, Col, Image } from "react-bootstrap/";
 import { Link } from "react-router-dom";
 import SectionHeaderComponent from "../../shared/section_header/SectionHeaderComponent";
 import AlternateButtonComponent from "../../shared/buttons/AlternateButtonComponent";
 import logo from "./images/big-logo.svg";
-import uiux from "../../images/portfolio/ui-ux.png";
-import branding from "../../images/portfolio/branding-marketing.png";
-import digital from "../../images/portfolio/graphic-digital.png";
-import animations from "../../images/portfolio/animations.png";
-import photography from "../../images/portfolio/photography.png";
-import ThreeD from "../../images/portfolio/3D.png";
-import drawings from "../../images/portfolio/traditional-art/drawings.png";
-import paintings from "../../images/portfolio/traditional-art/paintings.png";
-import murals from "../../images/portfolio/traditional-art/murals.png";
-import handicrafts from "../../images/portfolio/traditional-art/handicrafts.png";
 
 function PortfolioComponent() {
   return (
@@ -34,7 +24,9 @@ function PortfolioComponent() {
             intellectual work; physicality, seen in the tangible outcomes of my efforts; and spirituality, which
             influences my artistic perspective and passions.
           </p>
-          <AlternateButtonComponent content="Behance portfolio" />
+          <Link to="https://www.behance.net/KatarzynaSzymczynska" target="_blank">
+            <AlternateButtonComponent content="Behance portfolio" />
+          </Link>
         </Col>
         <Col className="content-column logo-column">
           <Image src={logo} fluid className="big-logo" />
@@ -42,22 +34,28 @@ function PortfolioComponent() {
       </Row>
       <Row xs={1} xl={3} className="tiles-row">
         <Col className="tile-column">
-          <div className="tile">
-            <p className="category-title">mind</p>
-            <p className="category-description">IT work, encompassing UI/UX projects and computer graphics</p>
-          </div>
+          <Link className="tile-link" to={{ pathname: "/portfolio/mind" }}>
+            <div className="tile">
+              <p className="category-title">mind</p>
+              <p className="category-description">IT work, encompassing UI/UX projects and computer graphics</p>
+            </div>
+          </Link>
         </Col>
         <Col className="tile-column">
-          <div className="tile">
-            <p className="category-title">body</p>
-            <p className="category-description">physical manifestations of work, such as printed materials</p>
-          </div>
+          <Link className="tile-link" to={{ pathname: "/portfolio/body" }}>
+            <div className="tile">
+              <p className="category-title">body</p>
+              <p className="category-description">physical manifestations of work, such as printed materials</p>
+            </div>
+          </Link>
         </Col>
         <Col className="tile-column">
-          <div className="tile">
-            <p className="category-title">spirit</p>
-            <p className="category-description">work inspired by my passions and hobbies</p>
-          </div>
+          <Link className="tile-link" to={{ pathname: "/portfolio/spirit" }}>
+            <div className="tile">
+              <p className="category-title">spirit</p>
+              <p className="category-description">work inspired by my passions and hobbies</p>
+            </div>
+          </Link>
         </Col>
       </Row>
     </Container>

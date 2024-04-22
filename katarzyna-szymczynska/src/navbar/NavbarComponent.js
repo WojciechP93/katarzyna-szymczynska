@@ -11,7 +11,7 @@ function NavbarComponent() {
       scrollTargetIds={["home", "aboutme", "myskills", "portfolio", "contact"]}
       activeNavClass="nav-link-is-active"
       scrollDuration="100">
-      <Navbar collapseOnSelect expand="xxl">
+      <Navbar className="navigation-bar" collapseOnSelect expand="xxl">
         <Navbar.Brand className="navigation-bar-brand">
           <Stack direction="horizontal" gap={3}>
             <Image src={logo} fluid className="logo" />
