@@ -358,16 +358,19 @@
 .card-header {
   border-bottom: 0px !important;
   margin-bottom: 10px !important;
+  display: flex;
+  align-items: center;
   align-self: center;
+  height: 85px;
 }
 
 .card-body {
   background-color: $card-footer;
-  max-height: 86px;
   margin-top: 10px;
   border-radius: 0px 0px 10px 10px !important;
   padding: 0px !important;
   padding-top: 10px !important;
+  height: 85px;
 
   .project-title {
     font-family: $basic-font;
@@ -410,5 +413,33 @@
 
   .project-descr {
     opacity: 1 !important;
+  }
+}
+
+.card-header-image {
+  max-height: 85px;
+}
+
+@media (min-width: 0px) {
+  .card-column {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    width: 300px !important;
+  }
+
+  .card-image {
+    height: 158px;
+  }
+}
+
+@media (min-width: 435px) {
+  .card-column {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    width: 430px !important;
+  }
+
+  .card-image {
+    height: 278px;
   }
 }

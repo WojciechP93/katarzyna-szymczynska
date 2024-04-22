@@ -103,15 +103,15 @@ function SubjectComponent(props) {
               </div>
             </Col>
           </Row>
-          <Row xs={1} xl={3} className="tiles-row">
+          <Row xs={1} md={2} xl={3} className="tiles-row">
             {selectedSubjectProjects.map((item) => (
-              <Col className="tile-column" style={{ marginBottom: "20px", marginTop: "20px" }}>
+              <Col className="tile-column card-column">
                 <Link style={{ textDecoration: "none" }} to="#">
                   <Card className="project-card">
                     <Card.Header>
-                      <Image src={item.logo} fluid style={{ height: "85px" }} />
+                      <Image src={item.logo} className="card-header-image" />
                     </Card.Header>
-                    <Card.Img variant="top" src={item.bodyImage} style={{ height: "278px" }} />
+                    <Card.Img variant="top" className="card-image" src={item.bodyImage} flex />
                     <Card.Body>
                       <Card.Title className="project-title">{item.title}</Card.Title>
                       <Card.Text className="project-descr">{item.description}</Card.Text>
