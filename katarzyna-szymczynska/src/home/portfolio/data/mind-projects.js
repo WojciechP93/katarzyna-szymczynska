@@ -31,6 +31,9 @@ import energuadvisorLogo from "../images/energuadvisor-logo.png";
 import amkBody from "../images/AMK-body.png";
 import amkLogo from "../images/AMK-logo.png";
 
+import equiappBody from "../images/equiapp-body.png";
+import equiappLogo from "../images/equiapp-logo.png";
+
 export var mindProjects = [
   {
     logo: ps4bcLogo,
@@ -97,5 +100,11 @@ export var mindProjects = [
     bodyImage: amkBody,
     title: "AMK Engineering",
     description: "Figma project",
+  },
+  {
+    logo: equiappLogo,
+    bodyImage: equiappBody,
+    title: "EquiApp project",
+    description: "App design for horse lovers",
   },
 ];
