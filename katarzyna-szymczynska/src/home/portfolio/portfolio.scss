@@ -380,6 +380,8 @@
     font-size: $l;
     transition-duration: 0.5s;
     margin-bottom: 10px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   @mixin basic-descr {
@@ -416,10 +418,6 @@
   }
 }
 
-.card-header-image {
-  max-height: 85px;
-}
-
 @media (min-width: 0px) {
   .card-column {
     margin-bottom: 20px !important;
@@ -430,9 +428,17 @@
   .card-image {
     height: 158px;
   }
+
+  .card-header-image {
+    max-height: 50px;
+  }
 }
 
 @media (min-width: 435px) {
+  .card-header-image {
+    max-height: 85px;
+  }
+
   .card-column {
     margin-bottom: 20px !important;
     margin-top: 20px !important;
