@@ -118,3 +118,12 @@
     }
   }
 }
+
+.hash-link {
+  text-decoration: none;
+  color: $basic-text !important;
+  font-weight: $m-weight !important;
+  font-size: $s !important;
+  white-space: nowrap !important;
+  font-family: $basic-font !important;
+}

@@ -6,7 +6,7 @@ import "./portfolio.scss";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-import NavbarComponent from "../../navbar/NavbarComponent";
+import BasicNavbarComponent from "../../navbar/BasicNavbarComponent";
 import logo from "./images/big-logo.svg";
 import $ from "jquery";
 import { mindProjects } from "./data/mind-projects";
@@ -47,7 +47,7 @@ function SubjectComponent(props) {
 
   return (
     <>
-      <NavbarComponent />
+      <BasicNavbarComponent />
       <div className="background-div" id="portfolio">
         <Container fluid className="subject-container">
           <Row className="content-row">

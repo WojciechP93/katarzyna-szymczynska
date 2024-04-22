@@ -114,6 +114,8 @@
       opacity: 0.5;
       margin-right: 10px;
       margin-left: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .category-title {
@@ -306,6 +308,8 @@
       opacity: 0.5;
       margin-right: 10px;
       margin-left: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .category-title {
@@ -327,6 +331,7 @@
         font-size: $m;
         text-align: center;
         margin-top: 40px;
+        margin-left: 10px !important;
         font-weight: $m-weight !important;
         font-family: $primary-font !important;
         display: block;
@@ -378,6 +383,7 @@
     opacity: 0.4 !important;
     font-weight: $xl-weight;
     font-size: $xs;
+    margin-top: -10px;
   }
 
   @media (min-width: 0px) {
