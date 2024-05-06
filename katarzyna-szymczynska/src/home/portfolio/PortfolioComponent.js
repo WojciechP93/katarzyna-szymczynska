@@ -28,7 +28,7 @@ function PortfolioComponent() {
             <AlternateButtonComponent content="Behance portfolio" />
           </Link>
         </Col>
-        <Col className="content-column logo-column">
+        <Col className="logo-column">
           <Image src={logo} fluid className="big-logo" />
         </Col>
       </Row>

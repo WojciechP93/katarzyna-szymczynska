@@ -1,8 +1,7 @@
 import * as React from "react";
 import SectionHeaderComponent from "../../shared/section_header/SectionHeaderComponent";
 import { Container, Row, Col, Breadcrumb, Stack, Image } from "react-bootstrap/";
-import "./portfolio.css";
-import "./portfolio.scss";
+import "./subject.scss";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
@@ -50,7 +49,7 @@ function SubjectComponent(props) {
       <BasicNavbarComponent />
       <div className="background-div" id="portfolio">
         <Container fluid className="subject-container">
-          <Row className="content-row">
+          <Row className="subject-row">
             <Col style={{ maxWidth: "1310px" }}>
               <Stack direction="horizontal" gap={3}>
                 <Breadcrumb>
@@ -66,8 +65,8 @@ function SubjectComponent(props) {
           <Row>
             <SectionHeaderComponent title="portfolio" />
           </Row>
-          <Row xs={1} xl={2} className="content-row">
-            <Col className="content-column">
+          <Row xs={1} xl={2} className="subject-row">
+            <Col className="subject-column">
               <p className="portftolio-description">
                 In my portfolio, I chose the motif of fire because it's my element - I'm a Leo. In my logo, I
                 incorporate the triquetra symbol, inspired by Celtic culture, to represent the trinity of body, mind,
@@ -79,7 +78,7 @@ function SubjectComponent(props) {
                 influences my artistic perspective and passions.
               </p>
             </Col>
-            <Col className="content-column logo-column">
+            <Col className="logo-column">
               <Image src={logo} fluid className="big-logo" />
             </Col>
           </Row>
@@ -106,7 +105,11 @@ function SubjectComponent(props) {
           <Row xs={1} md={2} xl={3} className="tiles-row">
             {selectedSubjectProjects.map((item) => (
               <Col className="tile-column card-column">
-                <Link style={{ textDecoration: "none" }} to="#">
+                <Link
+                  style={{ textDecoration: "none" }}
+                  to={{
+                    pathname: "/portfolio/" + subject + "/" + item.id,
+                  }}>
                   <Card className="project-card">
                     <Card.Header>
                       <Image src={item.logo} className="card-header-image" />

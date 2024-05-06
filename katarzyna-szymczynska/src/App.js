@@ -7,92 +7,20 @@ import SubjectComponent from "./home/portfolio/SubjectComponent";
 import GaleryComponent from "./home/portfolio/GaleryComponent";
 import ScrollToTop from "./ScrollToTop";
 
-import EquiAPP from "./images/portfolio/uiux/subjects/EquiAPP-mockup1.png";
-import Parvis from "./images/portfolio/uiux/subjects/Parvis-mockup1.png";
-import Tapit from "./images/portfolio/uiux/subjects/tapi-website-mockup1.png";
-import TapitM from "./images/portfolio/uiux/subjects/tapit-mobile-mockup1.png";
-import TapitC from "./images/portfolio/uiux/subjects/tapi-customer-app-mockup1.png";
-import Cat from "./images/portfolio/uiux/subjects/cat-mockup1.png";
-import Mti from "./images/portfolio/uiux/subjects/mti-mockup1.png";
-import Aviator from "./images/portfolio/uiux/subjects/aviator-mockup1.png";
-import Versant from "./images/portfolio/uiux/subjects/versant-mockup1.png";
-import Jgl from "./images/portfolio/uiux/subjects/jgl-mockup1.png";
-
-import EquiAPP_1 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import EquiAPP_2 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import EquiAPP_3 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import EquiAPP_4 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import EquiAPP_5 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import EquiAPP_6 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import EquiAPP_7 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import EquiAPP_8 from "./images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import { ps4bcData } from "./home/portfolio/data/ps4bc-data";
+import { hanData } from "./home/portfolio/data/han-data";
+import { ecoData } from "./home/portfolio/data/eco-data";
+import { tapitData } from "./home/portfolio/data/tapit-data";
+import { bssData } from "./home/portfolio/data/bss-data";
+import { hahData } from "./home/portfolio/data/hah-data";
+import { zoocialData } from "./home/portfolio/data/zoocial-data";
+import { evoData } from "./home/portfolio/data/evo-data";
+import { parvisData } from "./home/portfolio/data/parvis-data";
+import { energuadvisorData } from "./home/portfolio/data/energuadvisor-data";
+import { amkData } from "./home/portfolio/data/amk-data";
+import { equiappData } from "./home/portfolio/data/equiapp-data";
 
 function App() {
-  var equiapp = [EquiAPP_1, EquiAPP_2, EquiAPP_3, EquiAPP_4, EquiAPP_5, EquiAPP_6, EquiAPP_7, EquiAPP_8];
-
-  var uiux = [
-    {
-      image: EquiAPP,
-      title: "EquiAPP",
-      description: "Design of a mobile application for horse riding enthusiasts, diploma design.",
-      path: "equi-app",
-    },
-    {
-      image: Parvis,
-      title: "PARVIS website",
-      description: "Website design for apartment rental services.",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: Tapit,
-      title: "TapIT website",
-      description: "Website design for a startup. Description of the business using infographics, photos ...",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: TapitM,
-      title: "TapIT app",
-      description: "Mobile and desktop application project for TapIT company. The application allows...",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: TapitC,
-      title: "TapIT Customer app",
-      description: "A mobile application designed for pub customers. It allows you to create ...",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: Cat,
-      title: "CAT app",
-      description: "Classification App for Tools - Oerlikon Balzers.",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: Mti,
-      title: "MTI",
-      description: "The MTI application allows you to track the working hours of various machines in your area.",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: Aviator,
-      title: "AVIATOR-1",
-      description: "Design of the interface of the application used to operate the flight simulator...",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: Versant,
-      title: "Versant",
-      description: "Educational platform project. The application allows you to check your level of English...",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-    {
-      image: Jgl,
-      title: "JGL",
-      description: "A few screens of an app which allows the user to manage machines and machines ...",
-      path: "ui-ux-and-web-design-component/equi-app",
-    },
-  ];
-
   return (
     <HashRouter>
       <ScrollToTop />
@@ -101,19 +29,21 @@ function App() {
           <Routes>
             <Route path="/home" element={<HomeComponent />} />
             <Route path="/" element={<Navigate replace to="/home" />} />
-            <Route path="/portfolio/mind" element={<SubjectComponent items={uiux} subjectTitle="mind" />} />
-            <Route path="/portfolio/body" element={<SubjectComponent items={uiux} subjectTitle="body" />} />
-            <Route path="/portfolio/spirit" element={<SubjectComponent items={uiux} subjectTitle="spirit" />} />
-            <Route
-              path="/portfolio/ui-ux-and-web-design-component/equi-app"
-              element={
-                <GaleryComponent
-                  images={equiapp}
-                  subjectPath="ui-ux-and-web-design-component"
-                  subjectName="UI/UX and web design"
-                />
-              }
-            />
+            <Route path="/portfolio/mind" element={<SubjectComponent subjectTitle="mind" />} />
+            <Route path="/portfolio/body" element={<SubjectComponent subjectTitle="body" />} />
+            <Route path="/portfolio/spirit" element={<SubjectComponent subjectTitle="spirit" />} />
+            <Route path="/portfolio/mind/ps4bc" element={<GaleryComponent projectData={ps4bcData} />} />
+            <Route path="/portfolio/mind/han" element={<GaleryComponent projectData={hanData} />} />
+            <Route path="/portfolio/mind/eco-flavours" element={<GaleryComponent projectData={ecoData} />} />
+            <Route path="/portfolio/mind/tapit" element={<GaleryComponent projectData={tapitData} />} />
+            <Route path="/portfolio/mind/bss" element={<GaleryComponent projectData={bssData} />} />
+            <Route path="/portfolio/mind/hah" element={<GaleryComponent projectData={hahData} />} />
+            <Route path="/portfolio/mind/zoocial" element={<GaleryComponent projectData={zoocialData} />} />
+            <Route path="/portfolio/mind/evo" element={<GaleryComponent projectData={evoData} />} />
+            <Route path="/portfolio/mind/parvis" element={<GaleryComponent projectData={parvisData} />} />
+            <Route path="/portfolio/mind/energuadvisor" element={<GaleryComponent projectData={energuadvisorData} />} />
+            <Route path="/portfolio/mind/amk" element={<GaleryComponent projectData={amkData} />} />
+            <Route path="/portfolio/mind/equiapp" element={<GaleryComponent projectData={equiappData} />} />
           </Routes>
         </Row>
       </Container>

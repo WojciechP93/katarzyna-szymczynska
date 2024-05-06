@@ -1,0 +1,87 @@
+@import "../../main.scss";
+
+.gallery-image {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.5s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-gallery-modal {
+  display: flex !important;
+  padding-left: 30px !important;
+  padding-right: 47px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  margin-top: 10px;
+
+  .carousel-test {
+    padding-bottom: 30px !important;
+  }
+
+  .btn-close {
+    margin-right: 35px !important;
+    width: 20px !important;
+  }
+
+  .modal-header {
+    border-bottom: 0px !important;
+    margin-bottom: -60px;
+    z-index: 20;
+  }
+
+  .modal-body {
+    padding: 0px !important;
+  }
+
+  .carousel-indicators {
+    position: fixed !important;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .carousel-indicators:hover {
+    position: fixed !important;
+    opacity: 1;
+  }
+
+  .indicator {
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+  }
+
+  .indicator-image {
+    height: 120px;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+  }
+
+  .indicator-image:hover {
+    opacity: 1;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    position: fixed !important;
+    align-items: flex-end !important;
+    margin-bottom: 95px !important;
+    margin-top: 95px !important;
+  }
+
+  .carousel-control-next {
+    margin-right: 45px !important;
+  }
+
+  .carousel-control-prev {
+    margin-left: 45px !important;
+  }
+
+  .tile-link {
+    text-decoration: none !important;
+  }
+}
