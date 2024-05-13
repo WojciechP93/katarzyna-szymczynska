@@ -1,0 +1,65 @@
+.mySwiper2 .swiper-slide {
+  height: auto;
+}
+
+.mySwiper2 .swiper-wrapper {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.mySwiper2 .swiper-button-prev {
+  position: fixed;
+  top: 85%;
+  margin-left: 35px;
+}
+
+.mySwiper2 .swiper-button-next {
+  position: fixed;
+  top: 85%;
+  margin-right: 35px;
+}
+
+.mySwiper2 .swiper-slide img {
+  width: 100%;
+}
+
+.mySwiper .swiper-slide {
+  max-height: 200px;
+  width: auto !important;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.mySwiper {
+  position: fixed;
+  width: 90%;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.mySwiper:hover {
+  opacity: 1;
+}
+
+.mySwiper .swiper-slide:hover {
+  opacity: 1;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.mySwiper .swiper-slide img {
+  max-height: 200px;
+}

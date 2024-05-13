@@ -12,16 +12,7 @@
 }
 
 .portfolio-gallery-modal {
-  display: flex !important;
-  padding-left: 30px !important;
-  padding-right: 47px !important;
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
-  margin-top: 10px;
-
-  .carousel-test {
-    padding-bottom: 30px !important;
-  }
+  margin-top: 30px;
 
   .btn-close {
     margin-right: 35px !important;
@@ -42,6 +33,8 @@
     position: fixed !important;
     opacity: 0;
     transition: opacity 0.5s;
+    overflow-x: scroll;
+    justify-content: flex-start;
   }
 
   .carousel-indicators:hover {
@@ -63,6 +56,27 @@
 
   .indicator-image:hover {
     opacity: 1;
+  }
+
+  @media (min-width: 0px) {
+    .carousel {
+      display: block;
+      margin-top: -15px;
+    }
+
+    .swiperComponent {
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .carousel {
+      display: none;
+    }
+
+    .swiperComponent {
+      display: block;
+    }
   }
 
   .carousel-control-next,

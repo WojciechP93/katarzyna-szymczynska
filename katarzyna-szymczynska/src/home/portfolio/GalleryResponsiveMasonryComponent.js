@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./galery-masonry.scss";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import SwiperComponent from "./SwiperComponent";
 
 function GalleryResponsiveMasonryComponent(props) {
   const [show, setShow] = useState(false);
@@ -43,30 +44,21 @@ function GalleryResponsiveMasonryComponent(props) {
       <Modal show={show} fullscreen={true} onHide={handleClose} keyboard={false} className="portfolio-gallery-modal">
         <Modal.Header closeButton closeVariant="white" />
         <Modal.Body>
+          <div className="swiperComponent">
+            <SwiperComponent images={props.images} initialSlide={index} />
+          </div>
           <Carousel
             activeIndex={index}
             onSelect={handleSelect}
             interval={null}
             indicators={false}
             controls={true}
-            style={{ marginTop: "-15px" }}>
+            className="carousel">
             {props.images.map((image) => (
               <Carousel.Item>
-                <Image src={image} alt="..." style={{ width: "100%" }} />
+                <Image src={image} style={{ width: "100%", objectFit: "cover" }} />
               </Carousel.Item>
             ))}
-            <ol className="carousel-indicators carousel-test">
-              {props.images.map((image, itemIndex) => (
-                <div className="indicator" style={{ "--url": `url(${image})` }}>
-                  <Image
-                    src={image}
-                    className={index == itemIndex ? "indicator-image active" : "indicator-image"}
-                    rounded
-                    onClick={() => handleSelect(itemIndex)}
-                  />
-                </div>
-              ))}
-            </ol>
           </Carousel>
         </Modal.Body>
       </Modal>
