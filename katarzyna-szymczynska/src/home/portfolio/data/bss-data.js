@@ -1,92 +1,82 @@
 import logo from "../images/BSS-logo.png";
 
 import figma from "../../myskills/images/figma.svg";
-import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
+import notion from "../../myskills/images/notion.svg";
+import webflow from "../../myskills/images/webflow.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import primaryButton from "../images/bss/primary-button.svg";
+import secondaryButton from "../images/bss/secondary-button.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import f1 from "../images/bss/font1.svg";
+import f2 from "../images/bss/font2.svg";
+import f3 from "../images/bss/font3.svg";
+import f4 from "../images/bss/font4.svg";
+import f5 from "../images/bss/font5.svg";
+
+import img1 from "../images/bss/img1.png";
+import img2 from "../images/bss/img2.png";
+import img3 from "../images/bss/img3.png";
 
 export var bssData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "Blue Station Studios website",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "https://www.bluestationstudios.com/",
+  technologies: [figma, notion, webflow],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "BlueStationStudios website project was created using a template from the Webflow platform in Figma and then realized on the Webflow platform.",
+        "The Webflow platform allows for the immediate creation of the website on various device sizes.",
+        "The website serves as a concise presentation of BlueStationStudios' key projects, with a dedicated contact page.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "Template Adaptation and Development",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "The template was customized to reflect BlueStationStudios' branding and requirements in Figma.",
+        "Subsequently, the design was implemented on the Webflow platform, ensuring responsiveness across different devices.",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "Content and Functionality",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "The website succinctly showcases the significant projects undertaken by BlueStationStudios.",
+        "A dedicated contact page provides users with easy access to reach out for inquiries or collaboration opportunities.",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Visual Style",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "The website adopts a clear, grey-blue color scheme, reflecting the company's name and the IT sector's aesthetics.",
+        "With a minimalist and streamlined design, the site maintains a professional appearance while being sparing in its use of graphics",
       ],
+    },
+    {
+      header: "Related Projects",
+      bullets: ["Brandbook for Blue Station Studios"],
     },
   ],
   colors: [
     {
       name: "main",
-      code: "#EF6301",
+      code: "#0C3355",
     },
     {
       name: "secondary",
-      code: "#F79E1B",
-    },
-    {
-      name: "text",
-      code: "#FFFFFF",
+      code: "#DAE4EE",
     },
     {
       name: "background",
-      code: "#000000",
+      code: "FFFFFF",
     },
     {
-      name: "textfields",
-      code: "#252525",
+      name: "text",
+      code: "#313437",
     },
   ],
-  icons: icons,
+  icons: "",
   buttons: [
     {
       name: "Primary",
@@ -99,25 +89,25 @@ export var bssData = {
   ],
   fonts: [
     {
-      name: "Montserrat Bold 48p",
+      name: "Poppins SemiBold 48p",
       image: f1,
     },
     {
-      name: "Montserrat Bold 32p",
+      name: "Poppins Regular 48p",
       image: f2,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Poppins Regular 40p",
       image: f3,
     },
     {
-      name: "Montserrat Regular 20p",
+      name: "Inter Regular 18p",
       image: f4,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Inter Medium 16p",
       image: f5,
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [img1, img2, img3],
 };

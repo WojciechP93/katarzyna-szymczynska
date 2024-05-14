@@ -2,88 +2,83 @@ import logo from "../images/ecoFlavours-logo.png";
 
 import figma from "../../myskills/images/figma.svg";
 import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
+import illustrator from "../../myskills/images/illustrator.svg";
+import shopify from "../../myskills/images/shopify.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import icons from "../images/han/han-icons.svg";
+import primaryButton from "../images/eco/primary-button.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import f1 from "../images/eco/font1.svg";
+import f2 from "../images/eco/font2.svg";
+import f3 from "../images/eco/font3.svg";
+import f4 from "../images/eco/font4.svg";
+
+import img1 from "../images/eco/img1.png";
+import img2 from "../images/eco/img2.png";
+import img3 from "../images/eco/img3.png";
+import img4 from "../images/eco/img4.png";
+import img5 from "../images/eco/img5.png";
+import img6 from "../images/eco/img6.png";
+import img7 from "../images/eco/img7.png";
+import img8 from "../images/eco/img8.png";
+import img9 from "../images/eco/img9.png";
+import img10 from "../images/eco/img10.png";
 
 export var ecoData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "Website design for EcoFlavours",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "https://ecoflavours.com/",
+  technologies: [figma, ps, illustrator, shopify],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "Presenting the UI design project for Eco Flavours, an online store specializing in eco-friendly food products made in Poland.",
+        "The design prioritizes intuitive navigation, clean aesthetics, and a seamless user experience, catering to customers passionate about sustainability.",
+        "Additionally, the project involved designing the website's logo, creating mockups for juice products, and ongoing work on the final product packaging design.",
+        "The platform was built on Shopify, where various optimizations and adjustments were made to enhance functionality and user experience.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "Website Development and Branding",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "The UI design ensures effortless browsing and purchasing for users interested in sustainable food products.",
+        "Clean aesthetics and intuitive navigation enhance the user experience, fostering a sense of trust and reliability.",
+        "The website's logo reflects Eco Flavours' commitment to eco-friendliness and Polish craftsmanship, setting the tone for the brand identity.",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "Product Presentation and Visuals",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "Mockups for juice products were created to showcase the items in a realistic setting, adding visual appeal and aiding in product promotion.",
+        "Ongoing work on the final product packaging design aims to align with the brand's values and resonate with environmentally-conscious consumers.",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Continued Engagement and Expansion",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "The project encompasses not only the initial website design but also ongoing efforts to refine and enhance the user experience.",
+        "As the project progresses, there is a focus on maintaining consistency across all brand elements and platforms to ensure a cohesive and impactful online presence.",
       ],
+    },
+    {
+      header: "Related Projects",
+      bullets: ["Catalogue design for PS4BC"],
     },
   ],
   colors: [
     {
       name: "main",
-      code: "#EF6301",
+      code: "#0D3D2D",
     },
     {
       name: "secondary",
-      code: "#F79E1B",
-    },
-    {
-      name: "text",
-      code: "#FFFFFF",
+      code: "#FFFCF9",
     },
     {
       name: "background",
-      code: "#000000",
-    },
-    {
-      name: "textfields",
-      code: "#252525",
+      code: "#FFFFFF",
     },
   ],
   icons: icons,
@@ -92,18 +87,14 @@ export var ecoData = {
       name: "Primary",
       image: primaryButton,
     },
-    {
-      name: "Secondary",
-      image: secondaryButton,
-    },
   ],
   fonts: [
     {
-      name: "Montserrat Bold 48p",
+      name: "Playfair Display Bold 48p",
       image: f1,
     },
     {
-      name: "Montserrat Bold 32p",
+      name: "Montserrat Medium 36p",
       image: f2,
     },
     {
@@ -114,10 +105,6 @@ export var ecoData = {
       name: "Montserrat Regular 20p",
       image: f4,
     },
-    {
-      name: "Montserrat Bold 20p",
-      image: f5,
-    },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10],
 };

@@ -10,7 +10,7 @@ function ProjectInfoComponent(props) {
       {props.info.map((data) => (
         <Stack>
           <p className="section-title">{data.header}</p>
-          <ul className="section-text" style={{ marginRight: "100px" }}>
+          <ul className="section-text project-info-text">
             {data.bullets.map((bullet) => (
               <li>{bullet}</li>
             ))}

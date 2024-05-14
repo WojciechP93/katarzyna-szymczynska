@@ -5,12 +5,14 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "./portfolio.scss";
 
 function IconsComponent(props) {
-  return (
-    <Stack>
-      <p className="section-title">Icons</p>
-      <Image fluid src={props.icons} style={{ maxWidth: "430px" }} />
-    </Stack>
-  );
+  if (props.icons !== "") {
+    return (
+      <Stack>
+        <p className="section-title">Icons</p>
+        <Image fluid src={props.icons} className="icons-image" />
+      </Stack>
+    );
+  }
 }
 
 export default IconsComponent;

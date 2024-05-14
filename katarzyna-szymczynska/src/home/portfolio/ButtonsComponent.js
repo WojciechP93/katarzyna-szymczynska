@@ -9,13 +9,9 @@ function ButtonsComponent(props) {
     <Stack>
       <p className="section-title">Buttons</p>
       {props.buttons.map((button) => (
-        <Stack
-          direction="horizontal"
-          style={{ marginBottom: "20px", justifyContent: "space-between", marginRight: "100px" }}>
+        <Stack direction="horizontal" className="button-stack">
           <Image fluid src={button.image} />
-          <p className="section-text" style={{ marginTop: "18px", marginLeft: "80px" }}>
-            {button.name}
-          </p>
+          <p className="section-text button-title">{button.name}</p>
         </Stack>
       ))}
     </Stack>

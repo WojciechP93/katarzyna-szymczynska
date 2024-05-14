@@ -2,88 +2,96 @@ import logo from "../images/tapit-website-logo.png";
 
 import figma from "../../myskills/images/figma.svg";
 import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
+import illustrator from "../../myskills/images/illustrator.svg";
+import aftereffects from "../../myskills/images/aftereffects.svg";
+import affinity from "../../myskills/images/affinity.svg";
+import wordpress from "../../myskills/images/wordpress.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import icons from "../images/tapit/tapit-icons.svg";
+import primaryButton from "../images/tapit/primary-button.svg";
+import secondaryButton from "../images/tapit/secondary-button.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import f1 from "../images/tapit/font1.svg";
+import f2 from "../images/tapit/font2.svg";
+import f3 from "../images/tapit/font3.svg";
+import f4 from "../images/tapit/font4.svg";
+import f5 from "../images/tapit/font5.svg";
+
+import img1 from "../images/tapit/img1.jpg";
+import img2 from "../images/tapit/img2.jpg";
+import img3 from "../images/tapit/img3.jpg";
+import img4 from "../images/tapit/img4.jpg";
+import img5 from "../images/tapit/img5.jpg";
+import img6 from "../images/tapit/img6.jpg";
+import img7 from "../images/tapit/img7.jpg";
+import img8 from "../images/tapit/img8.jpg";
+import img9 from "../images/tapit/img9.jpg";
+import img10 from "../images/tapit/img10.png";
+import img11 from "../images/tapit/img11.jpg";
+import img12 from "../images/tapit/img12.jpg";
+import img13 from "../images/tapit/img13.jpg";
+import img14 from "../images/tapit/img14.jpg";
+import img15 from "../images/tapit/img15.jpg";
+import img16 from "../images/tapit/img16.jpg";
+import img17 from "../images/tapit/img17.jpg";
 
 export var tapitData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "Website design for Tapit Solutions",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "https://tapitsolutions.com/",
+  technologies: [figma, ps, illustrator, aftereffects, affinity, wordpress],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "Developed the UI design for Tapit, a startup offering intelligent solutions for the HoReCa industry.",
+        "The solution involves installing IoT devices as tap handles, enabling data collection on beer consumption and providing statistics for efficient inventory management in pubs.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "Stylistic Approach",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "Embracing the essence of the HoReCa industry, the UI design features dark colors and vibrant illustrations, integral to the project.",
+        "Incorporating golden, silver, and bronze hues, mirroring the packaging tiers offered in the solution.",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "Website Content and Functionality",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "Detailed presentation of Tapit's offerings for both small and large businesses.",
+        "Instructions on installing the tap handle, FAQs section, pricing options categorized into different packages.",
+        "The website serves as a comprehensive guide for potential clients, ensuring easy navigation and access to essential information.",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Multimedia Integration",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "Creation of an animated video providing a succinct overview of the IoT solution.",
+        "The video, animated using Adobe After Effects, complements the website's content, offering an engaging visual representation of Tapit's innovative offering.",
       ],
+    },
+    {
+      header: "Related Projects",
+      bullets: ["Tapit Solutions branding and packaging"],
     },
   ],
   colors: [
     {
       name: "main",
-      code: "#EF6301",
+      code: "#DEA521",
     },
     {
       name: "secondary",
-      code: "#F79E1B",
+      code: "#232A30",
     },
     {
-      name: "text",
-      code: "#FFFFFF",
+      name: "gold",
+      code: "linear-gradient(113.44deg, #FAF6E5 14.05%, #F4D9AD 35.97%, #FFF5D4 63.02%, #F7D9B5 88.97%, #FEEFE5 99.15%)",
     },
     {
       name: "background",
-      code: "#000000",
-    },
-    {
-      name: "textfields",
-      code: "#252525",
+      code: "#FFFFFF",
     },
   ],
   icons: icons,
@@ -99,25 +107,43 @@ export var tapitData = {
   ],
   fonts: [
     {
-      name: "Montserrat Bold 48p",
+      name: "Poppins Bold 64p",
       image: f1,
     },
     {
-      name: "Montserrat Bold 32p",
+      name: "Poppins Bold 48p",
       image: f2,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Lato Black 24p",
       image: f3,
     },
     {
-      name: "Montserrat Regular 20p",
+      name: "Lato Regular 16p",
       image: f4,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Open Sans SemiBold 18p",
       image: f5,
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img15,
+    img16,
+    img17,
+  ],
 };

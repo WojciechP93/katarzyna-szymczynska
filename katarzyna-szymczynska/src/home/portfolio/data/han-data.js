@@ -18,14 +18,14 @@ import f3 from "../images/han/font3.svg";
 import f4 from "../images/han/font4.svg";
 import f5 from "../images/han/font5.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import img1 from "../images/han/img1.jpg";
+import img2 from "../images/han/img2.jpg";
+import img5 from "../images/han/img5.jpg";
+import img6 from "../images/han/img6.jpg";
+import img7 from "../images/han/img7.jpg";
+import img8 from "../images/han/img8.jpg";
+import img9 from "../images/han/img9.jpg";
+import img10 from "../images/han/img10.jpg";
 
 export var hanData = {
   title: "Website design for Horse&Natrure",
@@ -120,5 +120,5 @@ export var hanData = {
       image: f5,
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [img1, img2, img5, img6, img7, img8, img9, img10],
 };

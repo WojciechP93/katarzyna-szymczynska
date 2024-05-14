@@ -9,13 +9,9 @@ function FontsComponent(props) {
     <Stack>
       <p className="section-title">Fonts</p>
       {props.fonts.map((font) => (
-        <Stack
-          direction="horizontal"
-          style={{ marginBottom: "20px", justifyContent: "space-between", marginRight: "100px" }}>
+        <Stack direction="horizontal" className="font-stack">
           <Image src={font.image} fluid />
-          <p className="section-text" style={{ marginLeft: "80px", marginTop: "18px" }}>
-            {font.name}
-          </p>
+          <p className="section-text font-title">{font.name}</p>
         </Stack>
       ))}
     </Stack>
