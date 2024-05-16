@@ -1,89 +1,78 @@
 import logo from "../images/AMK-logo.png";
 
 import figma from "../../myskills/images/figma.svg";
-import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
+import photoshop from "../../myskills/images/photoshop.svg";
+import illustrator from "../../myskills/images/illustrator.svg";
+import dsmax from "../../myskills/images/3dmax.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import icons from "../images/amk/amk-icons.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import primaryButton from "../images/amk/primary-button.svg";
+
+import f1 from "../images/amk/font1.svg";
+import f2 from "../images/amk/font2.svg";
+import f3 from "../images/amk/font3.svg";
+import f4 from "../images/amk/font4.svg";
+
+import img1 from "../images/amk/img1.png";
+import img2 from "../images/amk/img2.png";
+import img3 from "../images/amk/img3.png";
+import img4 from "../images/amk/img4.png";
 
 export var amkData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "Intefrace design for flight simulator",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "",
+  technologies: [figma, dsmax, photoshop, illustrator],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "Leading the design of the user interface (UI) for AMK's Aviator-1 programmable flight simulator, aimed at delivering a seamless user experience (UX) for controlling complex machinery.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "User Interface Design",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "Prioritizing intuitive navigation and clear visual communication to ensure users can easily interact with the simulator's controls.",
+        "Designing intuitive menus and controls for smooth operation",
+        "Implementing clear visual cues to guide users through various functions and features",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "3D Modeling",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "Creating a detailed 3D model of the Simulation Platform using 3D Max to provide a realistic and immersive experience for users.",
+        "Modeling the physical components of the simulator with precision and attention to detail.",
+        "Incorporating textures and lighting effects to enhance realism and immersion",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Additional Design Elements",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "Designing folder and ID cards for the AMK team to maintain a cohesive and professional brand image.",
+        "Creating visually appealing and informative folder designs to organize project materials.",
+        "Developing ID cards that reflect the company's identity while providing essential information for team members.",
       ],
     },
   ],
   colors: [
     {
-      name: "main",
-      code: "#EF6301",
+      name: "main, text",
+      code: "#014A8E",
     },
     {
       name: "secondary",
-      code: "#F79E1B",
+      code: "#26252A",
     },
     {
-      name: "text",
-      code: "#FFFFFF",
+      name: "tertiary",
+      code: "#1B1C20",
     },
     {
       name: "background",
-      code: "#000000",
-    },
-    {
-      name: "textfields",
-      code: "#252525",
+      code: "linear-gradient(143.63deg, #191E44 11.34%, #3F4BAA 98.15%)",
     },
   ],
   icons: icons,
@@ -92,32 +81,24 @@ export var amkData = {
       name: "Primary",
       image: primaryButton,
     },
-    {
-      name: "Secondary",
-      image: secondaryButton,
-    },
   ],
   fonts: [
     {
-      name: "Montserrat Bold 48p",
+      name: "Poppins Regular 48p",
       image: f1,
     },
     {
-      name: "Montserrat Bold 32p",
+      name: "Poppins Regular 24p",
       image: f2,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Inconsolata 20p",
       image: f3,
     },
     {
-      name: "Montserrat Regular 20p",
+      name: "Poppins Bold 16p",
       image: f4,
     },
-    {
-      name: "Montserrat Bold 20p",
-      image: f5,
-    },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [img1, img2, img3, img4],
 };

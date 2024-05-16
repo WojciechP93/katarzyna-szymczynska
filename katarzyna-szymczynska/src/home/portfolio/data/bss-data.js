@@ -77,6 +77,7 @@ export var bssData = {
     },
   ],
   icons: "",
+  graphics: "",
   buttons: [
     {
       name: "Primary",

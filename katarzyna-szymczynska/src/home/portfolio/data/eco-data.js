@@ -5,7 +5,7 @@ import ps from "../../myskills/images/photoshop.svg";
 import illustrator from "../../myskills/images/illustrator.svg";
 import shopify from "../../myskills/images/shopify.svg";
 
-import icons from "../images/han/han-icons.svg";
+import icons from "../images/eco/eco-icons.svg";
 import primaryButton from "../images/eco/primary-button.svg";
 
 import f1 from "../images/eco/font1.svg";
@@ -19,10 +19,6 @@ import img3 from "../images/eco/img3.png";
 import img4 from "../images/eco/img4.png";
 import img5 from "../images/eco/img5.png";
 import img6 from "../images/eco/img6.png";
-import img7 from "../images/eco/img7.png";
-import img8 from "../images/eco/img8.png";
-import img9 from "../images/eco/img9.png";
-import img10 from "../images/eco/img10.png";
 
 export var ecoData = {
   title: "Website design for EcoFlavours",
@@ -82,6 +78,7 @@ export var ecoData = {
     },
   ],
   icons: icons,
+  graphics: "",
   buttons: [
     {
       name: "Primary",
@@ -106,5 +103,5 @@ export var ecoData = {
       image: f4,
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10],
+  mockups: [img1, img2, img3, img4, img5, img6],
 };

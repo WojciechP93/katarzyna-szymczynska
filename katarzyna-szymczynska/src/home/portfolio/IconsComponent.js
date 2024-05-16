@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "./portfolio.scss";
 
 function IconsComponent(props) {
-  if (props.icons !== "") {
+  if (props.icons !== undefined) {
     return (
       <Stack>
         <p className="section-title">Icons</p>

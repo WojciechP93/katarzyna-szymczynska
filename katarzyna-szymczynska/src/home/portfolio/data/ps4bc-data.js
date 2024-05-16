@@ -96,6 +96,7 @@ export var ps4bcData = {
     },
   ],
   icons: icons,
+  graphics: "",
   buttons: [
     {
       name: "Primary",

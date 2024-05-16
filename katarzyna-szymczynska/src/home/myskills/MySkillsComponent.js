@@ -23,6 +23,7 @@ import Git from "./images/github.svg";
 import GitHub from "./images/github.svg";
 import CSS3 from "./images/css3.svg";
 import HTML5 from "./images/html5.svg";
+import dsmax from "./images/3dmax.svg";
 
 var skills = [
   {
@@ -96,6 +97,10 @@ var skills = [
   {
     image: HTML5,
     title: "HTML5",
+  },
+  {
+    image: dsmax,
+    title: "3ds Max",
   },
 ];
 

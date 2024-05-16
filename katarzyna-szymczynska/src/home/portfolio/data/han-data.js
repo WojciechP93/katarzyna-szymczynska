@@ -88,6 +88,7 @@ export var hanData = {
     },
   ],
   icons: icons,
+  graphics: "",
   buttons: [
     {
       name: "Primary",

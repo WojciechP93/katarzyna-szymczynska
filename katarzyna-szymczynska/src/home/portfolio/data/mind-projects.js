@@ -32,7 +32,7 @@ import amkBody from "../images/AMK-body.png";
 import amkLogo from "../images/AMK-logo.png";
 
 import equiappBody from "../images/equiapp-body.png";
-import equiappLogo from "../images/equiapp-logo.png";
+import equiappLogo from "../images/equiapp-logo.svg";
 
 export var mindProjects = [
   {

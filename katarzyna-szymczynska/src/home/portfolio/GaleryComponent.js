@@ -10,6 +10,7 @@ import SkillImageComponent from "./SkillImageComponent";
 import ProjectInfoComponent from "./ProjectInfoComponent";
 import ColorsComponent from "./ColorsComponent";
 import IconsComponent from "./IconsComponent";
+import GraphicsComponent from "./GraphicsComponent";
 import ButtonsComponent from "./ButtonsComponent";
 import FontsComponent from "./FontsComponent";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
@@ -72,6 +73,7 @@ function GaleryComponent(props) {
               <ButtonsComponent buttons={props.projectData.buttons} />
               <IconsComponent icons={props.projectData.icons} />
               <FontsComponent fonts={props.projectData.fonts} />
+              <GraphicsComponent icons={props.projectData.graphics} />
             </Masonry>
           </ResponsiveMasonry>
         </Row>

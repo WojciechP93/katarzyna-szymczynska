@@ -1,89 +1,86 @@
 import logo from "../images/energuadvisor-logo.png";
 
 import figma from "../../myskills/images/figma.svg";
-import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import icons from "../images/energy/energy-icons.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import primaryButton from "../images/energy/primary-button.svg";
+import secondaryButton from "../images/energy/secondary-button.svg";
+
+import f1 from "../images/energy/font1.svg";
+import f2 from "../images/energy/font2.svg";
+import f3 from "../images/energy/font3.svg";
+import f4 from "../images/energy/font4.svg";
+import f5 from "../images/energy/font5.svg";
+import f6 from "../images/energy/font6.svg";
+
+import img1 from "../images/energy/img1.png";
+import img2 from "../images/energy/img2.png";
+import img3 from "../images/energy/img3.png";
+import img4 from "../images/energy/img4.png";
+import img5 from "../images/energy/img5.png";
+import img6 from "../images/energy/img6.png";
+import img7 from "../images/energy/img7.png";
+import img8 from "../images/energy/img8.png";
+import img9 from "../images/energy/img9.png";
+import img10 from "../images/energy/img10.png";
+import img11 from "../images/energy/img11.png";
 
 export var energuadvisorData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "Website design for Parvis",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "https://ttpsc.com/pl/rozwiazania/system-zarzadzania-energia/",
+  technologies: [figma],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "The Energy Advisor application represents a groundbreaking solution within the Industrial Internet of Things (IIoT) domain, redefining the monitoring of energy and utility costs.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "Energy Management Software",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "Serving as an advanced energy management software, the Energy Advisor application empowers users with control over energy consumption and other utilities within production environments",
+        "Its sophisticated features enable real-time measurements and calculations, facilitating the identification of deviations, losses, and opportunities for optimization.",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "User-Friendly Interface",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "The project prioritizes simplicity and clarity, ensuring a user-friendly experience for all stakeholders.",
+        "Through intuitive data visualization techniques, the interface enables users to navigate and interpret complex information effortlessly, enhancing decision-making processes.",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Focus on Data Visualization",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "A key highlight of the project is its emphasis on data visualization, allowing users to gain insights at a glance.",
+        "By presenting information in a clear and concise manner, the Energy Advisor application facilitates efficient analysis and actionable insights for improved energy management and cost optimization.",
       ],
     },
   ],
   colors: [
     {
       name: "main",
-      code: "#EF6301",
+      code: "#165A4A",
+    },
+    {
+      name: "active state",
+      code: "#5BB73B",
     },
     {
       name: "secondary",
-      code: "#F79E1B",
+      code: "#4E5674",
     },
     {
-      name: "text",
-      code: "#FFFFFF",
+      name: "tertiary",
+      code: "#909090",
     },
     {
       name: "background",
-      code: "#000000",
-    },
-    {
-      name: "textfields",
-      code: "#252525",
+      code: "#FFFFFF",
     },
   ],
   icons: icons,
@@ -99,25 +96,29 @@ export var energuadvisorData = {
   ],
   fonts: [
     {
-      name: "Montserrat Bold 48p",
+      name: "Open Sans ExtraBold 24p",
       image: f1,
     },
     {
-      name: "Montserrat Bold 32p",
+      name: "Open Sans ExtraBold 20p",
       image: f2,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Open Sans Bold 16p",
       image: f3,
     },
     {
-      name: "Montserrat Regular 20p",
+      name: "Open Sans Regular 24p",
       image: f4,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Open Sans Regular 14p",
       image: f5,
     },
+    {
+      name: "Open Sans ExtraBold 44p",
+      image: f6,
+    },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11],
 };

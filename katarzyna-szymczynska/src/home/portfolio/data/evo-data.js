@@ -1,89 +1,73 @@
 import logo from "../images/EVO-logo.png";
 
 import figma from "../../myskills/images/figma.svg";
-import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import icons from "../images/evo/evo-icons.svg";
+import primaryButton from "../images/evo/primary-button.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import f1 from "../images/evo/font1.svg";
+import f2 from "../images/evo/font2.svg";
+import f3 from "../images/evo/font3.svg";
+import f4 from "../images/evo/font4.svg";
+
+import img1 from "../images/evo/img1.jpg";
 
 export var evoData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "Website design for Evo Engineering",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "",
+  technologies: [figma],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "The website design project for EVO Engineering was a pivotal endeavor aimed at establishing a robust online presence for a mechanic specializing in the repair of sports cars.",
+        "By crafting a visually captivating and user-friendly website, the goal was to effectively communicate the essence of the brand, its core values, and its commitment to delivering unparalleled automotive services.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "Sleek and Minimalist Design",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "The website featured a sleek and minimalist design aesthetic, reflecting the precision and sophistication synonymous with sports car engineering.",
+        "This design approach ensured a visually harmonious experience for visitors, aligning seamlessly with the existing logo and brand identity.",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "Comprehensive Service Descriptions",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "The website showcased comprehensive descriptions of EVO Engineering's services, providing visitors with detailed insights into the range of offerings available.",
+        "This section served as a valuable resource for prospective clients seeking information about the mechanic's expertise and capabilities.",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Updates on Current Events and Activities",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "In addition to service descriptions, the website provided updates on current events and activities related to the workshop.",
+        "This dynamic content kept visitors informed about the latest developments, fostering engagement and reinforcing EVO Engineering's commitment to excellence.",
       ],
     },
   ],
   colors: [
     {
-      name: "main",
-      code: "#EF6301",
+      name: "main, text",
+      code: "#BCDE28",
     },
     {
       name: "secondary",
-      code: "#F79E1B",
+      code: "#3F4754",
     },
     {
       name: "text",
-      code: "#FFFFFF",
+      code: "#252328",
+    },
+    {
+      name: "tertiary",
+      code: "#ADB7C8",
     },
     {
       name: "background",
-      code: "#000000",
-    },
-    {
-      name: "textfields",
-      code: "#252525",
+      code: "#FFFFFF",
     },
   ],
   icons: icons,
@@ -92,32 +76,24 @@ export var evoData = {
       name: "Primary",
       image: primaryButton,
     },
-    {
-      name: "Secondary",
-      image: secondaryButton,
-    },
   ],
   fonts: [
     {
-      name: "Montserrat Bold 48p",
+      name: "Poppins Bold 48p",
       image: f1,
     },
     {
-      name: "Montserrat Bold 32p",
+      name: "Poppins Bold 24p",
       image: f2,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Poppins Regular 20p",
       image: f3,
     },
     {
-      name: "Montserrat Regular 20p",
+      name: "Poppins Bold 16p",
       image: f4,
     },
-    {
-      name: "Montserrat Bold 20p",
-      image: f5,
-    },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [img1],
 };

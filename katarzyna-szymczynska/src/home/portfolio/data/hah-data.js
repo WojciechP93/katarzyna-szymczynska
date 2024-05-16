@@ -2,91 +2,83 @@ import logo from "../images/HAH-logo.png";
 
 import figma from "../../myskills/images/figma.svg";
 import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
+import shopify from "../../myskills/images/shopify.svg";
+import notion from "../../myskills/images/notion.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import icons from "../images/hah/hah-icons.svg";
+import primaryButton from "../images/hah/primary-button.svg";
+import secondaryButton from "../images/hah/secondary-button.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import f1 from "../images/hah/font1.svg";
+import f2 from "../images/hah/font2.svg";
+import f3 from "../images/hah/font3.svg";
+import f4 from "../images/hah/font4.svg";
+import f5 from "../images/hah/font5.svg";
+
+import img1 from "../images/hah/img1.jpg";
+import img2 from "../images/hah/img2.jpg";
+import img3 from "../images/hah/img3.jpg";
+import img4 from "../images/hah/img4.jpg";
+import img5 from "../images/hah/img5.jpg";
+import img6 from "../images/hah/img6.jpg";
+import img7 from "../images/hah/img7.jpg";
+import img8 from "../images/hah/img8.png";
 
 export var hahData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "Website design for Home Art Haven",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "https://homearthaven.com/",
+  technologies: [figma, ps, shopify, notion],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "Introducing the UI design project for the website of Home Art Haven, a rising star in the art industry known for printing AI-generated images onto canvas.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "Responsive Design",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "This project includes both mobile and desktop versions of the website, meticulously crafted to seamlessly adapt to varying screen sizes.",
+        "The design ensures an optimal viewing experience for users across different devices, enhancing accessibility and usability.",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "Visual Consistency",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "Rooted in the existing logo and color palette, the design maintains visual consistency throughout the website.",
+        "By harmonizing aesthetics with functionality, the UI offers an immersive experience for art enthusiasts exploring the diverse range of AI-generated images available for printing.",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Additional Deliverables",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "In addition to the website design, the project involved preparing mockups for presentations of the printed artworks on walls.",
+        "Advertising banners in various sizes were also created for online platforms, extending the brand's reach and promoting its unique offerings.",
       ],
     },
   ],
   colors: [
     {
-      name: "main",
-      code: "#EF6301",
+      name: "main, text",
+      code: "#353546",
     },
     {
       name: "secondary",
-      code: "#F79E1B",
+      code: "#EFEFEF",
     },
     {
       name: "text",
-      code: "#FFFFFF",
+      code: "#252328",
     },
     {
       name: "background",
-      code: "#000000",
-    },
-    {
-      name: "textfields",
-      code: "#252525",
+      code: "#FFFFFF",
     },
   ],
   icons: icons,
+  graphics: "",
   buttons: [
     {
       name: "Primary",
@@ -99,15 +91,15 @@ export var hahData = {
   ],
   fonts: [
     {
-      name: "Montserrat Bold 48p",
+      name: "Open Sans Regular 38p",
       image: f1,
     },
     {
-      name: "Montserrat Bold 32p",
+      name: "Open Sans Regular 30p",
       image: f2,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Open Sans Regular 24p",
       image: f3,
     },
     {
@@ -115,7 +107,7 @@ export var hahData = {
       image: f4,
     },
     {
-      name: "Montserrat Bold 20p",
+      name: "Montserrat Medium 14p",
       image: f5,
     },
   ],

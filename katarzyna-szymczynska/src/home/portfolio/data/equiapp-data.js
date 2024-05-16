@@ -1,89 +1,75 @@
-import logo from "../images/equiapp-logo.png";
+import logo from "../images/equiapp-logo.svg";
 
 import figma from "../../myskills/images/figma.svg";
-import ps from "../../myskills/images/photoshop.svg";
-import office from "../../myskills/images/office365.svg";
-import icons from "../images/ps4bc/ps4bc-icons.svg";
-import primaryButton from "../images/ps4bc/primary-button.svg";
-import secondaryButton from "../images/ps4bc/secondary-button.svg";
+import photoshop from "../../myskills/images/photoshop.svg";
+import illustrator from "../../myskills/images/illustrator.svg";
 
-import f1 from "../images/ps4bc/font1.svg";
-import f2 from "../images/ps4bc/font2.svg";
-import f3 from "../images/ps4bc/font3.svg";
-import f4 from "../images/ps4bc/font4.svg";
-import f5 from "../images/ps4bc/font5.svg";
+import icons from "../images/equiapp/equiapp-icons.svg";
 
-import img1 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_1.png";
-import img2 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_2.png";
-import img3 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_3.png";
-import img4 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_4.png";
-import img5 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_5.png";
-import img6 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_6.png";
-import img7 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_7.png";
-import img8 from "../../../images/portfolio/uiux/subjects/equii-app/EquiAPP_8.jpg";
+import primaryButton from "../images/equiapp/primary-button.svg";
+
+import img1 from "../images/equiapp/img1.jpg";
+import img2 from "../images/equiapp/img2.jpg";
+import img3 from "../images/equiapp/img3.jpg";
+import img4 from "../images/equiapp/img4.jpg";
+import img5 from "../images/equiapp/img5.jpg";
+import img6 from "../images/equiapp/img6.jpg";
 
 export var equiappData = {
-  title: "Website design for PS4BC Partner Membership",
+  title: "EquiApp project - app for horselovers",
   category: "mind",
   logo: logo,
-  address: "https://club.ps4bc.com/",
-  technologies: [figma, ps, office],
+  address: "",
+  technologies: [figma, photoshop, illustrator],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "PS4BC's UI design emphasizes usability and brand alignment.",
-        "It enhances user experience through intuitive navigation and industry-specific visuals.",
-        "Clean layout and captivating visuals solidify PS4BC's reputation.",
-        "Consistent design elements across platforms ensure seamless interaction and brand recognition.",
+        "The Energy Advisor application represents a groundbreaking solution within the Industrial Internet of Things (IIoT) domain, redefining the monitoring of energy and utility costs.",
       ],
     },
     {
-      header: "User Accounts",
+      header: "Energy Management Software",
       bullets: [
-        "Secure account creation enables personalized experiences.",
-        "Users can access capital investment opportunities.",
-        "Business partners can join the Partner Club for exclusive benefits and advantages.",
+        "Serving as an advanced energy management software, the Energy Advisor application empowers users with control over energy consumption and other utilities within production environments",
+        "Its sophisticated features enable real-time measurements and calculations, facilitating the identification of deviations, losses, and opportunities for optimization.",
       ],
     },
     {
-      header: "Visual Elements",
+      header: "User-Friendly Interface",
       bullets: [
-        "Background images of container ships provide context.",
-        "Reflects PS4BC's global distribution activities.",
-        "Demonstrates commitment to innovation in the industry",
-        "Black background and orange elements in the UI signify sophistication and brand consistency, enhancing user engagement and reinforcing PS4BC's identity.",
+        "The project prioritizes simplicity and clarity, ensuring a user-friendly experience for all stakeholders.",
+        "Through intuitive data visualization techniques, the interface enables users to navigate and interpret complex information effortlessly, enhancing decision-making processes.",
       ],
     },
     {
-      header: "Aesthetic Approach",
+      header: "Focus on Data Visualization",
       bullets: [
-        "Sleek design with black and orange tones exudes sophistication.",
-        "Sharp edges and minimalist text convey professionalism.",
-        "Modern aesthetic aligns with PS4BC's innovative image.",
+        "A key highlight of the project is its emphasis on data visualization, allowing users to gain insights at a glance.",
+        "By presenting information in a clear and concise manner, the Energy Advisor application facilitates efficient analysis and actionable insights for improved energy management and cost optimization.",
       ],
     },
   ],
   colors: [
     {
-      name: "main",
-      code: "#EF6301",
+      name: "icons",
+      code: "#082C2C",
     },
     {
-      name: "secondary",
-      code: "#F79E1B",
-    },
-    {
-      name: "text",
-      code: "#FFFFFF",
+      name: "buttons",
+      code: "#7E182E",
     },
     {
       name: "background",
-      code: "#000000",
+      code: "#E1E2E6",
     },
     {
-      name: "textfields",
-      code: "#252525",
+      name: "cards",
+      code: "#FFFFFF",
+    },
+    {
+      name: "section 5",
+      code: "#C4A27D",
     },
   ],
   icons: icons,
@@ -92,32 +78,6 @@ export var equiappData = {
       name: "Primary",
       image: primaryButton,
     },
-    {
-      name: "Secondary",
-      image: secondaryButton,
-    },
   ],
-  fonts: [
-    {
-      name: "Montserrat Bold 48p",
-      image: f1,
-    },
-    {
-      name: "Montserrat Bold 32p",
-      image: f2,
-    },
-    {
-      name: "Montserrat Bold 20p",
-      image: f3,
-    },
-    {
-      name: "Montserrat Regular 20p",
-      image: f4,
-    },
-    {
-      name: "Montserrat Bold 20p",
-      image: f5,
-    },
-  ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8],
+  mockups: [img1, img2, img3, img4, img5, img6],
 };

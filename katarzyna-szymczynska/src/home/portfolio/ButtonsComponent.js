@@ -5,17 +5,19 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "./portfolio.scss";
 
 function ButtonsComponent(props) {
-  return (
-    <Stack>
-      <p className="section-title">Buttons</p>
-      {props.buttons.map((button) => (
-        <Stack direction="horizontal" className="button-stack">
-          <Image fluid src={button.image} />
-          <p className="section-text button-title">{button.name}</p>
-        </Stack>
-      ))}
-    </Stack>
-  );
+  if (props.buttons !== undefined) {
+    return (
+      <Stack className="buttons-stack">
+        <p className="section-title">Buttons</p>
+        {props.buttons.map((button) => (
+          <Stack direction="horizontal" className="button-stack">
+            <Image fluid src={button.image} />
+            <p className="section-text button-title">{button.name}</p>
+          </Stack>
+        ))}
+      </Stack>
+    );
+  }
 }
 
 export default ButtonsComponent;
