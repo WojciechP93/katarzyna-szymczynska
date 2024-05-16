@@ -20,6 +20,15 @@ import { energuadvisorData } from "./home/portfolio/data/energuadvisor-data";
 import { amkData } from "./home/portfolio/data/amk-data";
 import { equiappData } from "./home/portfolio/data/equiapp-data";
 
+import { ps4bcBodyData } from "./home/portfolio/data/body/ps4bc-data";
+import { hanBodyData } from "./home/portfolio/data/body/han-data";
+import { tapitBodyData } from "./home/portfolio/data/body/tapit-data";
+import { bssBodyData } from "./home/portfolio/data/body/bss-data";
+import { parvisBodyData } from "./home/portfolio/data/body/parvis-data";
+import { espressoBodyData } from "./home/portfolio/data/body/espresso-data";
+import { remaBodyData } from "./home/portfolio/data/body/rema-data";
+import { equiappBodyData } from "./home/portfolio/data/body/equiapp-data";
+
 function App() {
   return (
     <HashRouter>
@@ -32,6 +41,7 @@ function App() {
             <Route path="/portfolio/mind" element={<SubjectComponent subjectTitle="mind" />} />
             <Route path="/portfolio/body" element={<SubjectComponent subjectTitle="body" />} />
             <Route path="/portfolio/spirit" element={<SubjectComponent subjectTitle="spirit" />} />
+
             <Route path="/portfolio/mind/ps4bc" element={<GaleryComponent projectData={ps4bcData} />} />
             <Route path="/portfolio/mind/han" element={<GaleryComponent projectData={hanData} />} />
             <Route path="/portfolio/mind/eco-flavours" element={<GaleryComponent projectData={ecoData} />} />
@@ -44,6 +54,15 @@ function App() {
             <Route path="/portfolio/mind/energuadvisor" element={<GaleryComponent projectData={energuadvisorData} />} />
             <Route path="/portfolio/mind/amk" element={<GaleryComponent projectData={amkData} />} />
             <Route path="/portfolio/mind/equiapp" element={<GaleryComponent projectData={equiappData} />} />
+
+            <Route path="/portfolio/body/ps4bc" element={<GaleryComponent projectData={ps4bcBodyData} />} />
+            <Route path="/portfolio/body/han" element={<GaleryComponent projectData={hanBodyData} />} />
+            <Route path="/portfolio/body/tapit" element={<GaleryComponent projectData={tapitBodyData} />} />
+            <Route path="/portfolio/body/bss" element={<GaleryComponent projectData={bssBodyData} />} />
+            <Route path="/portfolio/body/parvis" element={<GaleryComponent projectData={parvisBodyData} />} />
+            <Route path="/portfolio/body/espresso" element={<GaleryComponent projectData={espressoBodyData} />} />
+            <Route path="/portfolio/body/rema" element={<GaleryComponent projectData={remaBodyData} />} />
+            <Route path="/portfolio/body/equiapp" element={<GaleryComponent projectData={equiappBodyData} />} />
           </Routes>
         </Row>
       </Container>

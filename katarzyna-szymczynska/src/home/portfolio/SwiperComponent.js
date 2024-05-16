@@ -31,7 +31,7 @@ function SwiperComponent(props) {
           className="mySwiper2">
           {props.images.map((image) => (
             <SwiperSlide>
-              <Image src={image} />
+              <Image src={image} style={{ width: "100%", objectFit: "cover" }} />
             </SwiperSlide>
           ))}
         </Swiper>
