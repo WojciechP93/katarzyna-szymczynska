@@ -22,7 +22,7 @@ function BasicNavbarComponent() {
         </Stack>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
+      <Navbar.Collapse id="responsive-navbar-nav" className="basic-navbar-collapse">
         <Container fluid>
           <Row>
             <Col xl={2} lg={2} className="margin-column" />

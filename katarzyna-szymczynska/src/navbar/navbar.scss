@@ -9,6 +9,14 @@
   border-width: 2px;
   z-index: 100;
 
+  .basic-navbar-collapse {
+    margin-left: 30px;
+  }
+
+  .scrollspy-navbar-collapse {
+    margin-left: 20px;
+  }
+
   // Button for drop-down navigation menu for small screens
   .navbar-toggler {
     padding: 0px !important;
