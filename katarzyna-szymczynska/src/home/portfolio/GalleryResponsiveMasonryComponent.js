@@ -41,7 +41,7 @@ function GalleryResponsiveMasonryComponent(props) {
           ))}
         </Masonry>
       </ResponsiveMasonry>
-      <Modal show={show} fullscreen={true} onHide={handleClose} keyboard={false} className="portfolio-gallery-modal">
+      <Modal show={show} size="xl" fullscreen={false} onHide={handleClose} keyboard={false} className="portfolio-gallery-modal">
         <Modal.Header closeButton closeVariant="white" />
         <Modal.Body>
           <div className="swiperComponent">

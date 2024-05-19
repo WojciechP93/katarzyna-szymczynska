@@ -13,12 +13,13 @@ import { FreeMode, Navigation, Thumbs, Mousewheel, Keyboard } from "swiper/modul
 function SwiperComponent(props) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <Container fluid>
+    <Container fluid style={{ backgroundColor: "transparent" }}>
       <Row>
         <Swiper
           style={{
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
+            backgroundColor: "transparent"
           }}
           initialSlide={props.initialSlide}
           loop={true}
@@ -30,8 +31,11 @@ function SwiperComponent(props) {
           modules={[FreeMode, Navigation, Thumbs, Keyboard]}
           className="mySwiper2">
           {props.images.map((image) => (
-            <SwiperSlide>
-              <Image src={image} style={{ width: "100%", objectFit: "cover" }} />
+            <SwiperSlide style={{ backgroundColor: "transparent" }}>
+              <div className="swiper-image-container" style={{ backgroundColor: "transparent" }}>
+                <Image src={image} fluid />
+              </div>
+
             </SwiperSlide>
           ))}
         </Swiper>

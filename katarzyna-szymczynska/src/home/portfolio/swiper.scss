@@ -22,8 +22,9 @@
   margin-right: 35px;
 }
 
-.mySwiper2 .swiper-slide img {
-  width: 100%;
+.swiper-image-container {
+  display: flex;
+  justify-content: center;
 }
 
 .mySwiper .swiper-slide {

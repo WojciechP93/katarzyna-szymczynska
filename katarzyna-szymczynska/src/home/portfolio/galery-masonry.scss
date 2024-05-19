@@ -21,8 +21,11 @@
 
   .modal-header {
     border-bottom: 0px !important;
-    margin-bottom: -60px;
-    z-index: 20;
+  }
+
+  .modal-content {
+    background-color: transparent;
+    border-color: transparent;
   }
 
   .modal-body {
