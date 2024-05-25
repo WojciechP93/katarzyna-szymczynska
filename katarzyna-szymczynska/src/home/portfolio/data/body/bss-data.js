@@ -1,57 +1,56 @@
 import figma from "../../../myskills/images/figma.svg";
-import ps from "../../../myskills/images/photoshop.svg";
 import illustrator from "../../../myskills/images/illustrator.svg";
 
-import img1 from "../../images/body/ps4bc/img1.png";
-import img2 from "../../images/body/ps4bc/img2.png";
-import img3 from "../../images/body/ps4bc/img3.png";
-import img4 from "../../images/body/ps4bc/img4.png";
-import img5 from "../../images/body/ps4bc/img5.png";
-import img6 from "../../images/body/ps4bc/img6.png";
-import img7 from "../../images/body/ps4bc/img7.png";
-import img8 from "../../images/body/ps4bc/img8.png";
-import img9 from "../../images/body/ps4bc/img9.png";
-import img10 from "../../images/body/ps4bc/img10.png";
-import img11 from "../../images/body/ps4bc/img11.png";
-import img12 from "../../images/body/ps4bc/img12.png";
-import img13 from "../../images/body/ps4bc/img13.png";
-import img14 from "../../images/body/ps4bc/img14.png";
+import img1 from "../../images/body/bss/img1.jpg";
+import img2 from "../../images/body/bss/img2.jpg";
+import img3 from "../../images/body/bss/img3.jpg";
+import img4 from "../../images/body/bss/img4.jpg";
+import img5 from "../../images/body/bss/img5.jpg";
+import img6 from "../../images/body/bss/img6.jpg";
+import img7 from "../../images/body/bss/img7.jpg";
+import img8 from "../../images/body/bss/img8.jpg";
+import img9 from "../../images/body/bss/img9.jpg";
+import img10 from "../../images/body/bss/img10.jpg";
 
 export var bssBodyData = {
-  title: "Catalogue design for PS4BC",
+  title: "Brandbook for Blue Station Studios",
   category: "body",
   logo: "",
   address: "",
-  technologies: [figma, ps, illustrator],
+  technologies: [figma, illustrator],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "In this project, we present a meticulously crafted folder for PS4BC, outlining their offerings regarding the export of organic food from Poland to Canada. The folder comprises a descriptive section, featuring compelling text alongside images and graphics illustrating the offerings.",
+        "Developing a comprehensive brandbook is a fundamental step in solidifying the identity of Blue Station Studios, a company dedicated to fostering creativity across various projects.",
+        "The brandbook serves as a guidebook for maintaining consistency and clarity in all visual and messaging aspects of the brand.",
       ],
     },
     {
-      header: "Stylistic Approach",
+      header: "Significance of Logotype",
       bullets: [
-        "The stylistic essence of the folder is simple yet elegant, delicately evoking the essence of naturalism and eco-friendliness. The design seamlessly integrates with the brand's ethos of sustainability, reflecting its commitment to environmental responsibility.",
+        "Within the brandbook, special attention is given to the creation of a well-designed logotype, which serves as the visual cornerstone of the brand",
+        "The logotype plays a pivotal role in conveying Blue Station's ethos, values, and objectives to its audience.",
       ],
     },
     {
       header: "Related Projects",
-      bullets: ["Website design for PS4BC Partner Membership", "Website design for EcoFlavours"],
+      bullets: ["Blue Station Studios website"],
     },
     {
-      header: "Offer Highlights",
+      header: "Essence of Blue Station's Identity",
       bullets: [
-        "Within the folder, every aspect of the solution is meticulously detailed, highlighting its myriad benefits, including quality assurances, delivery methods, and packaging options. The text articulates the virtues of the offerings, emphasizing their ecological significance and superior quality.",
+        "At the heart of Blue Station's identity, the logotype must encapsulate the essence of innovation, creativity, and diversity that the company stands for",
+        "It serves as more than just a graphic mark; it is a symbol of the company's dedication to pushing the boundaries of creativity and exploring a multitude of projects across different domains.",
       ],
     },
     {
-      header: "Visual Representation",
+      header: "Functionality and Impact",
       bullets: [
-        "Accompanying the descriptive text are captivating images depicting lush orchards where these organic fruits thrive, visually reinforcing the message of purity and freshness. Additionally, contact details of the project lead are provided, ensuring seamless communication for interested parties.",
+        "A meticulously crafted logotype aids in brand recognition and recall, becoming a shorthand for the quality and type of creative work that Blue Station is known for.",
+        "Additionally, the logotype plays a vital role in building trust and credibility, reassuring clients and collaborators of the seriousness and dedication with which Blue Station approaches each project.",
       ],
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14],
+  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10],
 };

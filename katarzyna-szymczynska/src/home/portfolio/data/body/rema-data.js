@@ -1,57 +1,46 @@
-import figma from "../../../myskills/images/figma.svg";
 import ps from "../../../myskills/images/photoshop.svg";
 import illustrator from "../../../myskills/images/illustrator.svg";
 
-import img1 from "../../images/body/ps4bc/img1.png";
-import img2 from "../../images/body/ps4bc/img2.png";
-import img3 from "../../images/body/ps4bc/img3.png";
-import img4 from "../../images/body/ps4bc/img4.png";
-import img5 from "../../images/body/ps4bc/img5.png";
-import img6 from "../../images/body/ps4bc/img6.png";
-import img7 from "../../images/body/ps4bc/img7.png";
-import img8 from "../../images/body/ps4bc/img8.png";
-import img9 from "../../images/body/ps4bc/img9.png";
-import img10 from "../../images/body/ps4bc/img10.png";
-import img11 from "../../images/body/ps4bc/img11.png";
-import img12 from "../../images/body/ps4bc/img12.png";
-import img13 from "../../images/body/ps4bc/img13.png";
-import img14 from "../../images/body/ps4bc/img14.png";
+import img1 from "../../images/body/rema/img1.jpg";
+import img2 from "../../images/body/rema/img2.jpg";
+import img3 from "../../images/body/rema/img3.jpg";
+import img4 from "../../images/body/rema/img4.jpg";
+import img5 from "../../images/body/rema/img5.jpg";
+import img6 from "../../images/body/rema/img6.jpg";
 
 export var remaBodyData = {
-  title: "Catalogue design for PS4BC",
+  title: "REMA bookstore",
   category: "body",
   logo: "",
   address: "",
-  technologies: [figma, ps, illustrator],
+  technologies: [ps, illustrator],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "In this project, we present a meticulously crafted folder for PS4BC, outlining their offerings regarding the export of organic food from Poland to Canada. The folder comprises a descriptive section, featuring compelling text alongside images and graphics illustrating the offerings.",
+        "Creating bookmarks, posters, and leaflets for REMA bookstore chain, incorporating shades of blue to evoke a sense of tranquility and intellect. As an online bookstore, the design also nods to computers and digital reading experiences.",
       ],
     },
     {
-      header: "Stylistic Approach",
+      header: "Design Elements",
       bullets: [
-        "The stylistic essence of the folder is simple yet elegant, delicately evoking the essence of naturalism and eco-friendliness. The design seamlessly integrates with the brand's ethos of sustainability, reflecting its commitment to environmental responsibility.",
+        "Utilization of shades of blue to convey a sense of calmness and intelligence.",
+        "Integration of computer-related imagery to reflect the online bookstore aspect.",
       ],
     },
     {
-      header: "Related Projects",
-      bullets: ["Website design for PS4BC Partner Membership", "Website design for EcoFlavours"],
-    },
-    {
-      header: "Offer Highlights",
+      header: "Thematic Elements",
       bullets: [
-        "Within the folder, every aspect of the solution is meticulously detailed, highlighting its myriad benefits, including quality assurances, delivery methods, and packaging options. The text articulates the virtues of the offerings, emphasizing their ecological significance and superior quality.",
+        "Bookmarks serve as a value-added item for online book purchases.",
+        "Posters highlight the bookstore's offerings and promote various genres available in-store.",
       ],
     },
     {
-      header: "Visual Representation",
+      header: "Promotional Material",
       bullets: [
-        "Accompanying the descriptive text are captivating images depicting lush orchards where these organic fruits thrive, visually reinforcing the message of purity and freshness. Additionally, contact details of the project lead are provided, ensuring seamless communication for interested parties.",
+        "Leaflets include a 10% discount voucher, details of the store's offerings, and its address, enticing customers to visit the physical location or explore the online bookstore further.",
       ],
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14],
+  mockups: [img1, img2, img3, img4, img5, img6],
 };

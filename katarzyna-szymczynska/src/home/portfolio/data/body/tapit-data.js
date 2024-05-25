@@ -1,57 +1,52 @@
-import figma from "../../../myskills/images/figma.svg";
 import ps from "../../../myskills/images/photoshop.svg";
 import illustrator from "../../../myskills/images/illustrator.svg";
+import affinity from "../../../myskills/images/affinity.svg";
 
-import img1 from "../../images/body/ps4bc/img1.png";
-import img2 from "../../images/body/ps4bc/img2.png";
-import img3 from "../../images/body/ps4bc/img3.png";
-import img4 from "../../images/body/ps4bc/img4.png";
-import img5 from "../../images/body/ps4bc/img5.png";
-import img6 from "../../images/body/ps4bc/img6.png";
-import img7 from "../../images/body/ps4bc/img7.png";
-import img8 from "../../images/body/ps4bc/img8.png";
-import img9 from "../../images/body/ps4bc/img9.png";
-import img10 from "../../images/body/ps4bc/img10.png";
-import img11 from "../../images/body/ps4bc/img11.png";
-import img12 from "../../images/body/ps4bc/img12.png";
-import img13 from "../../images/body/ps4bc/img13.png";
-import img14 from "../../images/body/ps4bc/img14.png";
+import img1 from "../../images/body/tapit/img1.jpg";
+import img2 from "../../images/body/tapit/img2.jpg";
+import img3 from "../../images/body/tapit/img3.jpg";
+import img4 from "../../images/body/tapit/img4.jpg";
+import img5 from "../../images/body/tapit/img5.jpg";
 
 export var tapitBodyData = {
-  title: "Catalogue design for PS4BC",
+  title: "Tapit Solutions branding and packaging",
   category: "body",
   logo: "",
   address: "",
-  technologies: [figma, ps, illustrator],
+  technologies: [ps, illustrator, affinity],
   info: [
     {
       header: "Project Overview",
       bullets: [
-        "In this project, we present a meticulously crafted folder for PS4BC, outlining their offerings regarding the export of organic food from Poland to Canada. The folder comprises a descriptive section, featuring compelling text alongside images and graphics illustrating the offerings.",
+        "The packaging design project focuses on Tapit Solutions' IoT-enabled tap handles for kegs, measuring liquid flow for precise pouring in pubs.",
+        "The project involved designing packaging for the tap handles in multiple variants and incorporating all necessary information for display.",
       ],
     },
     {
-      header: "Stylistic Approach",
+      header: "Device Functionality and Purpose",
       bullets: [
-        "The stylistic essence of the folder is simple yet elegant, delicately evoking the essence of naturalism and eco-friendliness. The design seamlessly integrates with the brand's ethos of sustainability, reflecting its commitment to environmental responsibility.",
+        "Tapit Solutions' tap handles, equipped with IoT devices, provide precise liquid flow measurement, enhancing efficiency for pub owners.",
+        "The packaging design emphasizes the device's innovative functionality and its role in optimizing the pub management process.",
       ],
     },
     {
       header: "Related Projects",
-      bullets: ["Website design for PS4BC Partner Membership", "Website design for EcoFlavours"],
+      bullets: ["Website design for Tapit Solutions"],
     },
     {
-      header: "Offer Highlights",
+      header: "Visual Concept and Design Elements",
       bullets: [
-        "Within the folder, every aspect of the solution is meticulously detailed, highlighting its myriad benefits, including quality assurances, delivery methods, and packaging options. The text articulates the virtues of the offerings, emphasizing their ecological significance and superior quality.",
+        "The design adopts a minimalist approach, featuring simple linear graphics to convey essential information effectively.",
+        "Each packaging variant reflects the sleek and modern aesthetic, aligning with Tapit Solutions' brand identity and the IoT industry's aesthetics",
       ],
     },
     {
-      header: "Visual Representation",
+      header: "Inclusion of Instructional Materials",
       bullets: [
-        "Accompanying the descriptive text are captivating images depicting lush orchards where these organic fruits thrive, visually reinforcing the message of purity and freshness. Additionally, contact details of the project lead are provided, ensuring seamless communication for interested parties.",
+        "Inside the packaging, an instruction manual detailing device setup and operation is provided.",
+        "This instructional component ensures that pub owners can easily install and utilize the IoT-enabled tap handles, maximizing their benefits.",
       ],
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14],
+  mockups: [img1, img2, img3, img4, img5],
 };
