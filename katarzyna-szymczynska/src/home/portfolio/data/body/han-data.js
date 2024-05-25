@@ -2,56 +2,84 @@ import figma from "../../../myskills/images/figma.svg";
 import ps from "../../../myskills/images/photoshop.svg";
 import illustrator from "../../../myskills/images/illustrator.svg";
 
-import img1 from "../../images/body/ps4bc/img1.png";
-import img2 from "../../images/body/ps4bc/img2.png";
-import img3 from "../../images/body/ps4bc/img3.png";
-import img4 from "../../images/body/ps4bc/img4.png";
-import img5 from "../../images/body/ps4bc/img5.png";
-import img6 from "../../images/body/ps4bc/img6.png";
-import img7 from "../../images/body/ps4bc/img7.png";
-import img8 from "../../images/body/ps4bc/img8.png";
-import img9 from "../../images/body/ps4bc/img9.png";
-import img10 from "../../images/body/ps4bc/img10.png";
-import img11 from "../../images/body/ps4bc/img11.png";
-import img12 from "../../images/body/ps4bc/img12.png";
-import img13 from "../../images/body/ps4bc/img13.png";
-import img14 from "../../images/body/ps4bc/img14.png";
+import img1 from "../../images/body/han/img1.png";
+import img2 from "../../images/body/han/img2.png";
+import img3 from "../../images/body/han/img3.png";
+import img4 from "../../images/body/han/img4.png";
+import img5 from "../../images/body/han/img5.png";
+import img6 from "../../images/body/han/img6.png";
+import img7 from "../../images/body/han/img7.png";
+import img8 from "../../images/body/han/img8.png";
+import img9 from "../../images/body/han/img9.png";
+import img10 from "../../images/body/han/img10.png";
+import img11 from "../../images/body/han/img11.png";
+import img12 from "../../images/body/han/img12.png";
+import img13 from "../../images/body/han/img13.png";
+import img14 from "../../images/body/han/img14.png";
+import img15 from "../../images/body/han/img15.png";
+import img16 from "../../images/body/han/img16.png";
+import img17 from "../../images/body/han/img17.png";
+import img18 from "../../images/body/han/img18.png";
 
 export var hanBodyData = {
-  title: "Catalogue design for PS4BC",
+  title: "Horse&Nature branding",
   category: "body",
   logo: "",
-  address: "",
+  address: "https://horseandnature.pl/",
   technologies: [figma, ps, illustrator],
   info: [
     {
-      header: "Project Overview",
+      header: "Stickers Design for Horse Feed",
       bullets: [
-        "In this project, we present a meticulously crafted folder for PS4BC, outlining their offerings regarding the export of organic food from Poland to Canada. The folder comprises a descriptive section, featuring compelling text alongside images and graphics illustrating the offerings.",
+        "The Horse&Nature project involved creating sticker designs for six different types of horse feed.",
+        "Each sticker was tailored with a design specific to the intended use of the feed, such as orange for sport horses and green for fibrous feed.",
+        "The stickers feature descriptions of the feed's benefits and purposes.",
+        "Utilizing a simple grid layout and linear icons, the design ensures clarity and coherence.",
       ],
     },
     {
-      header: "Stylistic Approach",
+      header: "Mockups and Website Integration",
       bullets: [
-        "The stylistic essence of the folder is simple yet elegant, delicately evoking the essence of naturalism and eco-friendliness. The design seamlessly integrates with the brand's ethos of sustainability, reflecting its commitment to environmental responsibility.",
+        "Mockups of feed bags were created as part of the project, later featured on the manufacturer's website, www.horseandnature.pl, and the sales page, www.handnshop.pl.",
+        "The mockups aimed to showcase the product in a realistic setting, enhancing the user experience and aiding in sales.",
       ],
     },
     {
       header: "Related Projects",
-      bullets: ["Website design for PS4BC Partner Membership", "Website design for EcoFlavours"],
+      bullets: ["Website design for Horse&Natrure"],
     },
     {
-      header: "Offer Highlights",
+      header: "Print Materials and Branding",
       bullets: [
-        "Within the folder, every aspect of the solution is meticulously detailed, highlighting its myriad benefits, including quality assurances, delivery methods, and packaging options. The text articulates the virtues of the offerings, emphasizing their ecological significance and superior quality.",
+        "A business card design for company representatives was developed as part of the project.",
+        "Additionally, a flyer presenting the company's offerings was created to promote brand awareness and attract potential customers.",
       ],
     },
     {
-      header: "Visual Representation",
+      header: "Social Media Graphics",
       bullets: [
-        "Accompanying the descriptive text are captivating images depicting lush orchards where these organic fruits thrive, visually reinforcing the message of purity and freshness. Additionally, contact details of the project lead are provided, ensuring seamless communication for interested parties.",
+        "Graphics for social media platforms, including Facebook and Instagram, were designed to complement the brand's online presence and engage with the audience effectively.",
       ],
     },
   ],
-  mockups: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14],
+  mockups: [
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    img15,
+    img16,
+    img17,
+    img18,
+  ],
 };

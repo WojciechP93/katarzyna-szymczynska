@@ -28,7 +28,7 @@ function ProjectNameComponent(props) {
 }
 
 function StyleGuideComponent(props) {
-  if (props.category !== "spirit") {
+  if (props.category === "mind") {
     return <p className="project-name">Style guide</p>;
   }
 }
