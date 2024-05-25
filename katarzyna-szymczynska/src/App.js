@@ -29,6 +29,16 @@ import { espressoBodyData } from "./home/portfolio/data/body/espresso-data";
 import { remaBodyData } from "./home/portfolio/data/body/rema-data";
 import { equiappBodyData } from "./home/portfolio/data/body/equiapp-data";
 
+import { pourData } from "./home/portfolio/data/spirit/pour-data";
+import { oilData } from "./home/portfolio/data/spirit/oil-data";
+import { acrylicData } from "./home/portfolio/data/spirit/acrylic-data";
+import { watercolorData } from "./home/portfolio/data/spirit/watercolor-data";
+import { pencilData } from "./home/portfolio/data/spirit/pencil-data";
+import { drawingsData } from "./home/portfolio/data/spirit/drawings-data";
+import { muralsData } from "./home/portfolio/data/spirit/murals-data";
+import { digitalData } from "./home/portfolio/data/spirit/digital-data";
+import { otherData } from "./home/portfolio/data/spirit/other-data";
+
 function App() {
   return (
     <HashRouter>
@@ -63,6 +73,16 @@ function App() {
             <Route path="/portfolio/body/espresso" element={<GaleryComponent projectData={espressoBodyData} />} />
             <Route path="/portfolio/body/rema" element={<GaleryComponent projectData={remaBodyData} />} />
             <Route path="/portfolio/body/equiapp" element={<GaleryComponent projectData={equiappBodyData} />} />
+
+            <Route path="/portfolio/spirit/pour" element={<GaleryComponent projectData={pourData} />} />
+            <Route path="/portfolio/spirit/oil" element={<GaleryComponent projectData={oilData} />} />
+            <Route path="/portfolio/spirit/acrylic" element={<GaleryComponent projectData={acrylicData} />} />
+            <Route path="/portfolio/spirit/watercolor" element={<GaleryComponent projectData={watercolorData} />} />
+            <Route path="/portfolio/spirit/pencil" element={<GaleryComponent projectData={pencilData} />} />
+            <Route path="/portfolio/spirit/drawings" element={<GaleryComponent projectData={drawingsData} />} />
+            <Route path="/portfolio/spirit/murals" element={<GaleryComponent projectData={muralsData} />} />
+            <Route path="/portfolio/spirit/digital" element={<GaleryComponent projectData={digitalData} />} />
+            <Route path="/portfolio/spirit/other" element={<GaleryComponent projectData={otherData} />} />
           </Routes>
         </Row>
       </Container>

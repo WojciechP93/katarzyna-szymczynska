@@ -117,6 +117,7 @@
 
         .card-image {
           height: 158px;
+          object-fit: cover;
         }
 
         .card-header-image {
@@ -137,6 +138,7 @@
 
         .card-image {
           height: 278px;
+          object-fit: cover;
         }
       }
     }
@@ -256,24 +258,26 @@
         height: 85px;
 
         .project-title {
-          font-family: $basic-font;
+          font-family: $basic-font !important;
           color: $basic-text;
           font-weight: $xl-weight;
           opacity: 0.4 !important;
-          font-size: $l;
+          font-size: $m;
           transition-duration: 0.5s;
           margin-bottom: 10px !important;
           padding-left: 20px;
           padding-right: 20px;
+          text-align: center;
         }
 
         @mixin basic-descr {
-          font-family: $basic-font;
+          font-family: $basic-font !important;
           color: $basic-text !important;
           opacity: 0.4 !important;
           font-weight: $xl-weight;
           font-size: $xs;
-          margin-top: -10px;
+          margin-top: -5px;
+          text-align: center;
         }
 
         @media (min-width: 0px) {

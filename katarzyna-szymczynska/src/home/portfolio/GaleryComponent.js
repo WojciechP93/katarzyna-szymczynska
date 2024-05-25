@@ -15,6 +15,30 @@ import ButtonsComponent from "./ButtonsComponent";
 import FontsComponent from "./FontsComponent";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
+function ProjectNameComponent(props) {
+  if (props.category !== "spirit") {
+    return <p className="project-name">{props.title}</p>;
+  } else {
+    return (
+      <p className="project-name" style={{ textAlign: "center" }}>
+        {props.title}
+      </p>
+    );
+  }
+}
+
+function StyleGuideComponent(props) {
+  if (props.category !== "spirit") {
+    return <p className="project-name">Style guide</p>;
+  }
+}
+
+function DescriptionComponent(props) {
+  if (props.description !== undefined) {
+    return <p className="project-description">{props.description}</p>;
+  }
+}
+
 function GaleryComponent(props) {
   var info1 = props.projectData.info.slice(0, props.projectData.info.length / 2);
   var info2 = props.projectData.info.slice(props.projectData.info.length / 2, props.projectData.info.length);
@@ -43,7 +67,7 @@ function GaleryComponent(props) {
         </Row>
         <Row className="galery-row">
           <Stack>
-            <p className="project-name">{props.projectData.title}</p>
+            <ProjectNameComponent category={props.projectData.category} title={props.projectData.title} />
             <Image style={{ maxWidth: "200px" }} src={props.projectData.logo} />
             <a href={props.projectData.address} className="project-link">
               {props.projectData.address}
@@ -64,7 +88,8 @@ function GaleryComponent(props) {
           </Col>
         </Row>
         <Row className="galery-row">
-          <p className="project-name">Style guide</p>
+          <StyleGuideComponent category={props.projectData.category} />
+          <DescriptionComponent description={props.projectData.description} />
         </Row>
         <Row className="galery-row">
           <ResponsiveMasonry columnsCountBreakPoints={{ 576: 1, 992: 2 }} style={{ marginLeft: "20px" }}>

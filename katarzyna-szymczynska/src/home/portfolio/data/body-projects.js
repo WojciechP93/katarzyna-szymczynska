@@ -33,7 +33,7 @@ export var bodyProjects = [
   {
     logo: tapitLogo,
     bodyImage: tapitBody,
-    title: "tapit soltion branding and packaging",
+    title: "Tapit solution branding",
     description: "packaging design for IoT device",
     id: "tapit",
   },
