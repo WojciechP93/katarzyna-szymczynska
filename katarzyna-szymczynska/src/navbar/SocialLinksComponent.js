@@ -10,14 +10,18 @@ function SocialLinksComponent() {
         <a
           href="https://www.linkedin.com/in/katarzyna-szymczy%C5%84ska-72433a98/"
           className="social-link linkedin"
-          target="_blank"
+          onclick='window.open("https://www.linkedin.com/in/katarzyna-szymczy%C5%84ska-72433a98/");return false;'
         />
         <a
           className="social-link instagram"
-          target="_blank"
+          onclick='window.open("https://www.instagram.com/katie.design.art?igsh=MXV6aDFrNGVlNHBjdA==");return false;'
           href="https://www.instagram.com/katie.design.art?igsh=MXV6aDFrNGVlNHBjdA=="
         />
-        <a className="social-link behance" href="https://www.behance.net/KatarzynaSzymczynska" target="_blank" />
+        <a
+          className="social-link behance"
+          href="https://www.behance.net/KatarzynaSzymczynska"
+          onclick='window.open("https://www.behance.net/KatarzynaSzymczynska");return false;'
+        />
       </Stack>
     </Nav>
   );
